@@ -42,7 +42,7 @@ get_header(); ?>
           <p>Scroll down to meet our current volunteers.</p>
           <p>Feel free to reach out to them, ask them what they are doing, and how their experiences have helped us reach our goals. </p>
           <p>To send a request or inquiry, please click the button below and fill out our form: </p>
-          <button class="collab-btn  form-btn volunteer">Volunteer</button> 
+          <button class="volunteer-btn  form-btn volunteer">Volunteer</button> 
                         <div class="modal" id="volunteer">
                           <div class="form-content">
                             <span class="close">&times;</span>

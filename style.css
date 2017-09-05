@@ -1385,6 +1385,17 @@ form .alert {
   color: #004f4f;
   text-decoration: none;
 }
+
+/* volunteer buttons
+================= */
+.volunteer-btn {
+  background-color: #004f4f;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: #fff;
+}
 /* Extra Small devices (tablets, 480px and Down) */
 @media (max-width: 480px) {
   .carousel-home .carousel-title {
