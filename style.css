@@ -546,7 +546,7 @@ a:hover, a:focus, a:active {
 
 .about-us-col {
   height: 325px;
-  padding: 25px;
+/*  padding: 25px;*/
   text-align: center;
   background-color: #004f4f;
   background-size: 100%;
@@ -565,6 +565,14 @@ a:hover, a:focus, a:active {
   text-align: justify;
   margin-bottom: 25px;
   min-height: 80px;
+}
+
+.mission-image-container {
+  height: 100%;
+}
+
+.mission-image {
+  height: 100%;
 }
 
 /* home/reasons 

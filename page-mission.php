@@ -89,8 +89,8 @@ get_header(); ?>
 
     </div>     
         <div class="about-us-col row">
-          <div class="col-md-6">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/histories.png" alt="histories" class="img-responsive">
+          <div class="col-md-6 mission-image-container">
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/histories.png" alt="histories" class="img-responsive mission-image">
           </div>  
 
         <div class="col-md-6">
@@ -119,8 +119,8 @@ get_header(); ?>
     </div> 
                  
   <div class="about-us-col row">
-    <div class="col-md-6">
-      <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/languages.png" alt="languages" class="img-responsive">
+    <div class="col-md-6 mission-image-container">
+      <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/languages.png" alt="languages" class="img-responsive mission-image">
     </div>
 
     <div class="col-md-6">
@@ -148,8 +148,8 @@ get_header(); ?>
     </div> 
                  
   <div class="about-us-col row">
-    <div class="col-md-6">
-        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/dialogue.png" alt="dialogue" class="img-responsive">
+    <div class="col-md-6 mission-image-container">
+        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/dialogue.png" alt="dialogue" class="img-responsive mission-image">
     </div>
 
     <div class="col-md-6">
