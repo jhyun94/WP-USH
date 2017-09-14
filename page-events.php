@@ -58,7 +58,13 @@ get_header(); ?>
                         <div class="col-details">
                           <p><center>Where We've Been</center></p>
                         </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
+                        <a href="#" class="btn btn-primary event-btn" id="past"> Read more </a>
+                        <div class="event-past modal">
+                          <div class="modal-content">
+                            <h2>Default text</h2>
+                            <p>default text</p>
+                          </div>
+                        </div>
                     
                   </div>
                   
@@ -76,7 +82,13 @@ get_header(); ?>
                         <div class="col-details">
                           <p><center>Come See Us</center></p>
                         </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
+                        <a href="#" class="btn btn-primary event-btn" id="premieres"> Read more </a>
+                        <div class="event-premieres modal">
+                          <div class="modal-content">
+                            <h2>Default text</h2>
+                            <p>default text</p>
+                          </div>
+                        </div>
                     
                   </div>
                   
@@ -94,7 +106,13 @@ get_header(); ?>
                         <div class="col-details">
                           <p><center>Meet and Greet</center></p>
                         </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
+                        <a href="#" class="btn btn-primary event-btn" id="interactive"> Read more </a>
+                        <div class="event-interactive modal">
+                          <div class="modal-content">
+                            <h2>Default text</h2>
+                            <p>default text</p>
+                          </div>
+                        </div>
                     
                   </div>
                   
@@ -112,7 +130,13 @@ get_header(); ?>
                         <div class="col-details">
                           <p><center>Bring Us to You</center></p>
                         </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
+                        <a href="#" class="btn btn-primary event-btn" id="organize"> Read more </a>
+                        <div class="event-organize modal">
+                          <div class="modal-content">
+                            <h2>Default text</h2>
+                            <p>default text</p>
+                          </div>
+                        </div>
                           
                         </div>
                         

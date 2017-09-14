@@ -192,7 +192,7 @@ $('.event-btn').on('click', function(){
 
   $(".member-name").on("click", function(){
     var id = this.id;
-    $(".bio-"+id).show();
+    $(".event-"+id).show();
   })
 
   $(".close").on("click", function(){
