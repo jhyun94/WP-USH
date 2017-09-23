@@ -182,17 +182,12 @@ $(function(){
 		initMap();
 		
 	}
-// event page - open read more on events
 
-$('.event-btn').on('click', function(){
-  var id = this.id;
-  $('.bio-'+id).show();
-})
   // Teams page - open a bio for each member
 
   $(".member-name").on("click", function(){
     var id = this.id;
-    $(".event-"+id).show();
+    $(".bio-"+id).show();
   })
 
   $(".close").on("click", function(){
