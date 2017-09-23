@@ -4,6 +4,8 @@
 
 */
 
+
+$event_popup = get_field('event_popup');
 get_header(); ?>
 
 <div class="page-heading text-center">
@@ -171,3 +173,4 @@ get_header(); ?>
   </div>
 
 <?php get_footer(); ?>
+<script><?php echo $event_popup ?></script>
