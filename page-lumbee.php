@@ -27,9 +27,9 @@ get_header();
       <div class="row">
         
 
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/7610291856_931fb9f461_k.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/7610291856_931fb9f461_k.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
 
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/7610291856_931fb9f461_k.jpg" alt="">
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/7610291856_931fb9f461_k.jpg" alt="">
 
             <span class="on-hover">
               <span class="hover-caption">Armed Conflict</span>
@@ -37,9 +37,9 @@ get_header();
 
           </a> <!-- /.gallery-item -->
 
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/children-82272_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/children-82272_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
 
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/children-82272_1280.jpg" alt="">
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/children-82272_1280.jpg" alt="">
             
             <span class="on-hover">
               <span class="hover-caption">Image Caption</span>
@@ -47,40 +47,9 @@ get_header();
             
           </a> <!-- /.gallery-item -->
 
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/human-rights.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/human-rights.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
 
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/human-rights.jpg" alt="">
-            
-            <span class="on-hover">
-              <span class="hover-caption">Image Caption</span>
-            </span>
-            
-          </a> <!-- /.gallery-item -->
-
-
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/old-books-436498_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/old-books-436498_1280.jpg" alt="">
-            
-            <span class="on-hover">
-              <span class="hover-caption">Image Caption</span>
-            </span>
-            
-          </a> <!-- /.gallery-item -->
-
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/hunger-682834_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/hunger-682834_1280.jpg" alt="">
-            
-            <span class="on-hover">
-              <span class="hover-caption">Image Caption</span>
-            </span>
-            
-          </a> <!-- /.gallery-item -->
-
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/africa-education.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/africa-education.jpg" alt="">
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/human-rights.jpg" alt="">
             
             <span class="on-hover">
               <span class="hover-caption">Image Caption</span>
@@ -89,19 +58,9 @@ get_header();
           </a> <!-- /.gallery-item -->
 
 
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/afghani-60798_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/old-books-436498_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
 
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/afghani-60798_1280.jpg" alt="">
-
-            <span class="on-hover">
-              <span class="hover-caption">Image Caption</span>
-            </span>
-
-          </a> <!-- /.gallery-item -->
-
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/boy-60729_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/boy-60729_1280.jpg" alt="">
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/old-books-436498_1280.jpg" alt="">
             
             <span class="on-hover">
               <span class="hover-caption">Image Caption</span>
@@ -109,10 +68,19 @@ get_header();
             
           </a> <!-- /.gallery-item -->
 
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/hunger-682834_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
 
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/child-207573_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/hunger-682834_1280.jpg" alt="">
+            
+            <span class="on-hover">
+              <span class="hover-caption">Image Caption</span>
+            </span>
+            
+          </a> <!-- /.gallery-item -->
 
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/child-207573_1280.jpg" alt="">
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/africa-education.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/africa-education.jpg" alt="">
             
             <span class="on-hover">
               <span class="hover-caption">Image Caption</span>
@@ -121,9 +89,19 @@ get_header();
           </a> <!-- /.gallery-item -->
 
 
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/children-60654_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/afghani-60798_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
 
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/children-60654_1280.jpg" alt="">
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/afghani-60798_1280.jpg" alt="">
+
+            <span class="on-hover">
+              <span class="hover-caption">Image Caption</span>
+            </span>
+
+          </a> <!-- /.gallery-item -->
+
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/boy-60729_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/boy-60729_1280.jpg" alt="">
             
             <span class="on-hover">
               <span class="hover-caption">Image Caption</span>
@@ -131,9 +109,10 @@ get_header();
             
           </a> <!-- /.gallery-item -->
 
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/doll-87407_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
 
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/doll-87407_1280.jpg" alt="">
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/child-207573_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/child-207573_1280.jpg" alt="">
             
             <span class="on-hover">
               <span class="hover-caption">Image Caption</span>
@@ -141,9 +120,30 @@ get_header();
             
           </a> <!-- /.gallery-item -->
 
-          <a href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/girl-62328_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
 
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/gallery/thumb/girl-62328_1280.jpg" alt="">
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/children-60654_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/children-60654_1280.jpg" alt="">
+            
+            <span class="on-hover">
+              <span class="hover-caption">Image Caption</span>
+            </span>
+            
+          </a> <!-- /.gallery-item -->
+
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/doll-87407_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/doll-87407_1280.jpg" alt="">
+            
+            <span class="on-hover">
+              <span class="hover-caption">Image Caption</span>
+            </span>
+            
+          </a> <!-- /.gallery-item -->
+
+          <a href="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/girl-62328_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/girl-62328_1280.jpg" alt="">
             
             <span class="on-hover">
               <span class="hover-caption">Image Caption</span>
