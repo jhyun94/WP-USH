@@ -4,6 +4,8 @@
   Template Name: Home
 
 */
+$heading = get_field('heading');
+$sub_headiong = get_field('sub_heading');
 ?>
 
 <!doctype html>
@@ -56,8 +58,8 @@
 
                 <div class="carousel-caption">
 
-                  <h2 class="carousel-title bounceInDown animated slow">Indigenous Youth: Preserving Heritage</h2>
-                  <h4 class="carousel-subtitle bounceInUp animated slow ">Watch their Films • Hear their Voices</h4>
+                  <h2 class="carousel-title bounceInDown animated slow"><?php echo $heading ?></h2>
+                  <h4 class="carousel-subtitle bounceInUp animated slow "><?php echo $sub_heading ?></h4>
                   <a href="http://50.87.248.187/~twooneu9/USHWP/missions/" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" >ENGLISH</a><a href="/missiones" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#mission.html">SPANISH</a>
                  <br> <a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">DONATE</a>
                 </div> <!-- /.carousel-caption -->
