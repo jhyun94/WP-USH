@@ -1134,7 +1134,7 @@ form .alert {
   cursor: pointer;
 }
 
-.img__description, .lumbee_description {
+.img__description, .lumbee__description {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1148,10 +1148,10 @@ form .alert {
   transition: opacity .2s, visibility .2s;
 }
 
-.img__description:hover, .lumbee_description {
+.img__description:hover, .lumbee__description {
   cursor: pointer;
 }
-.img__wrap:hover .img__description, .img_wrap:hover .lumbee_description {
+.img__wrap:hover .img__description, .img_wrap:hover .lumbee__description {
   visibility: visible;
   opacity: 1;
 }
