@@ -1151,7 +1151,7 @@ form .alert {
 .img__description:hover, .lumbee_description {
   cursor: pointer;
 }
-.img__wrap:hover .img__description, .img_wrap .lumbee_description {
+.img__wrap:hover .img__description, .img_wrap:hover .lumbee_description {
   visibility: visible;
   opacity: 1;
 }
