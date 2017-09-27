@@ -567,12 +567,9 @@ a:hover, a:focus, a:active {
   min-height: 80px;
 }
 
-.mission-image-container {
-  height: 100%;
-}
-
-.mission-image {
-  height: 100%;
+.about-us-new {
+  background-color: #007D7D;
+  color: #fff;
 }
 
 /* home/reasons 

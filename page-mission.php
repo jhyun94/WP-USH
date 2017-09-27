@@ -87,17 +87,20 @@ get_header(); ?>
           <p style="text-align: left;">  </p>
         </div>
 
-    </div>     
-        <div class="about-us-col row">
-          <div class="col-md-6 mission-image-container">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/histories.png" alt="histories" class="img-responsive mission-image">
+    </div>  
+
+        <div class="row about-us-new">
+          <div class="col-md-6">
+            <div class="mission-image-container">
+              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/histories.png" alt="histories" class="img-responsive">
+            </div>
           </div>  
 
-        <div class="col-md-6">
-          <h2 class="title-style-2">Uncovering Histories<span class="title-under"></span></h2>
-          <p style="text-align: left;">Program Leaders facilitate critical education that includes analyzing how indigenous cultures and histories are represented in the media and how these depictions shape their present lives.  This inspires youth to identify topics that they choose to investigate and illustrate through their own lenses and experiences.</p>   
-        </div>
-      </div> <!-- /.row -->
+          <div class="col-md-6">
+            <h2 class="title-style-2">Uncovering Histories<span class="title-under"></span></h2>
+            <p style="text-align: left;">Program Leaders facilitate critical education that includes analyzing how indigenous cultures and histories are represented in the media and how these depictions shape their present lives.  This inspires youth to identify topics that they choose to investigate and illustrate through their own lenses and experiences.</p>   
+          </div>
+        </div> <!-- /.row -->
    
                       
  <div class="section-home our-causes animate-onscroll fadeIn">
@@ -118,9 +121,11 @@ get_header(); ?>
 
     </div> 
                  
-  <div class="about-us-col row">
-    <div class="col-md-6 mission-image-container">
-      <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/languages.png" alt="languages" class="img-responsive mission-image">
+  <div class="about-us-new row">
+    <div class="col-md-6">
+      <div class="mission-image-container">
+        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/languages.png" alt="languages" class="img-responsive mission-image">
+      </div>
     </div>
 
     <div class="col-md-6">
@@ -147,9 +152,11 @@ get_header(); ?>
 
     </div> 
                  
-  <div class="about-us-col row">
-    <div class="col-md-6 mission-image-container">
+  <div class="about-us-new row">
+    <div class="col-md-6">
+      <div class="mission-image-container">
         <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/dialogue.png" alt="dialogue" class="img-responsive mission-image">
+      </div>    
     </div>
 
     <div class="col-md-6">
