@@ -2,7 +2,8 @@
 /*
   Template Name: Mission
  */
-
+$title = get_field('title');
+$description = get_field('description');
 get_header(); ?>
 <div class="page-heading text-center">
 
@@ -31,9 +32,8 @@ get_header(); ?>
 
       <div class="col-md-6">
         
-        <h2 class="title-style-2">unlocking Silent histories<span class="title-under"></span></h2>
-        <p style="text-align: left;&nbsp;italics">...opens spaces for Indigenous youth to critically analyze how they are represented in the media and creatively express their cultures through their eyes. Youth adopt and adapt camera and computers techniques as they create documentary films, contributing to the preservation of cultures and languages and fostering conversation across generational and geographical boundaries. </p>
-        <p style="text-align: left; italics"> We foster a learning environment that is constructed with our students and in turn this environment facilitates youth leadership. In the process, we develop critical, creative, analytical, collaborative, and media technology skills. </p>
+        <h2 class="title-style-2"><?php echo $title ?><span class="title-under"></span></h2>
+        <p> <?php echo $description ?></p>
       </div>
 
         
