@@ -5,7 +5,7 @@
 
 */
 $heading = get_field('heading');
-$sub_headiong = get_field('sub_heading');
+$sub_heading = get_field('sub_heading');
 ?>
 
 <!doctype html>
