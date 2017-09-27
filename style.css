@@ -1314,6 +1314,12 @@ form .alert {
   .footer-col {
     margin-bottom: 50px;
   }
+
+  .about-us-content {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 /* Small devices (tablets, 768px and Down) */
 @media (max-width: 768px) {

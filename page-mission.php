@@ -96,7 +96,7 @@ get_header(); ?>
             </div>
           </div>  
 
-          <div class="col-md-6">
+          <div class="col-md-6 about-us-content">
             <h2 class="title-style-2">Uncovering Histories<span class="title-under"></span></h2>
             <p style="text-align: left;">Program Leaders facilitate critical education that includes analyzing how indigenous cultures and histories are represented in the media and how these depictions shape their present lives.  This inspires youth to identify topics that they choose to investigate and illustrate through their own lenses and experiences.</p>   
           </div>
@@ -128,7 +128,7 @@ get_header(); ?>
       </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 about-us-content">
       <h2 class="title-style-2">Preserving Languages<span class="title-under"></span></h2>
       <p style="text-align: left;">Our participants explore their topics through interviews with members of their communities, which are conducted in the local indigenous language of the community.  From these interviews, our youth identify themes and the emerging stories that become their documentaries.</p>
     </div>
@@ -159,7 +159,7 @@ get_header(); ?>
       </div>    
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 about-us-content">
       <h2 class="title-style-2">Fostering Dialogue<span class="title-under"></span></h2>
       <p style="text-align: left;">Youth share their films with their peers as well as present them to local, national, and international audiences.  The stories inspire conversations that heighten awareness of the similarities among and across cultures. They foster consciousness of individual and collective agency for social change.</p>
     </div>
