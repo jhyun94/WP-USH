@@ -4,6 +4,9 @@
  */
 $title = get_field('title');
 $description = get_field('description');
+$section_1_image = get_field('section_1_image');
+$section_1_title = get_field('section_1_title');
+$section_1_content = get_field('section_1_content');
 get_header(); ?>
 <div class="page-heading text-center">
 
@@ -92,14 +95,14 @@ get_header(); ?>
         <div class="row about-us-new">
           <div class="col-md-6">
             <div class="mission-image-container">
-              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/histories.png" alt="histories" class="img-responsive">
+              <img src=<?php echo $section_1_image['url'] ?> alt="histories" class="img-responsive">
             </div>
           </div>  
 
           <div class="col-md-6 about-us-content">
             <div class="about-us-content">
-              <h2 class="title-style-2">Uncovering Histories<span class="title-under"></span></h2>
-              <p style="text-align: left;">Program Leaders facilitate critical education that includes analyzing how indigenous cultures and histories are represented in the media and how these depictions shape their present lives.  This inspires youth to identify topics that they choose to investigate and illustrate through their own lenses and experiences.</p>   
+              <h2 class="title-style-2"> <?php echo $section_1_title ?> <span class="title-under"></span></h2>
+              <p style="text-align: left;"> <?php echo $section_1_content ?> </p>   
             </div>
           </div>
         </div> <!-- /.row -->
