@@ -7,6 +7,9 @@ $description = get_field('description');
 $section_1_image = get_field('section_1_image');
 $section_1_title = get_field('section_1_title');
 $section_1_content = get_field('section_1_content');
+$section_2_image = get_field('section_2_image');
+$section_2_title = get_field('section_2_title');
+$section_2_content = get_field('section_2_content');
 get_header(); ?>
 <div class="page-heading text-center">
 
@@ -129,14 +132,14 @@ get_header(); ?>
   <div class="about-us-new row">
     <div class="col-md-6">
       <div class="mission-image-container">
-        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/languages.png" alt="languages" class="img-responsive mission-image">
+        <img src=<?php echo $section_2_image['url'] ?> alt="languages" class="img-responsive mission-image">
       </div>
     </div>
 
     <div class="col-md-6">
       <div class="about-us-content">
-        <h2 class="title-style-2">Preserving Languages<span class="title-under"></span></h2>
-        <p style="text-align: left;">Our participants explore their topics through interviews with members of their communities, which are conducted in the local indigenous language of the community.  From these interviews, our youth identify themes and the emerging stories that become their documentaries.</p>
+        <h2 class="title-style-2"> <?php echo $section_2_title ?> <span class="title-under"></span></h2>
+        <p style="text-align: left;"> <?php echo $section_2_content ?> </p>
       </div>
     </div>
   </div> <!-- /.row -->
