@@ -10,6 +10,9 @@ $section_1_content = get_field('section_1_content');
 $section_2_image = get_field('section_2_image');
 $section_2_title = get_field('section_2_title');
 $section_2_content = get_field('section_2_content');
+$section_3_image = get_field('section_3_image');
+$section_3_title = get_field('section_3_title');
+$section_3_content = get_field('section_3_content');
 get_header(); ?>
 <div class="page-heading text-center">
 
@@ -165,14 +168,14 @@ get_header(); ?>
   <div class="about-us-new row">
     <div class="col-md-6">
       <div class="mission-image-container">
-        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/dialogue.png" alt="dialogue" class="img-responsive mission-image">
+        <img src=<?php echo $section_3_image['url'] ?> alt="dialogue" class="img-responsive mission-image">
       </div>    
     </div>
 
     <div class="col-md-6">
       <div class="about-us-content">
-        <h2 class="title-style-2">Fostering Dialogue<span class="title-under"></span></h2>
-        <p style="text-align: left;">Youth share their films with their peers as well as present them to local, national, and international audiences.  The stories inspire conversations that heighten awareness of the similarities among and across cultures. They foster consciousness of individual and collective agency for social change.</p>
+        <h2 class="title-style-2"><?php echo $section_3_title ?> <span class="title-under"></span></h2>
+        <p style="text-align: left;"> <?php echo $section_3_content ?> </p>
       </div>
     </div>
   </div> <!-- /.row -->            
