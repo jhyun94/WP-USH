@@ -102,7 +102,7 @@ get_header(); ?>
         <div class="row about-us-new">
           <div class="col-md-6">
             <div class="mission-image-container">
-              <img src=<?php echo $section_1_image['url'] ?> alt="histories" class="img-responsive">
+              <img src=<?php echo $section_1_image['url'] ?> alt=<?php echo $section_1_image['alt'] ?> class="img-responsive">
             </div>
           </div>  
 
@@ -136,7 +136,7 @@ get_header(); ?>
   <div class="about-us-new row">
     <div class="col-md-6">
       <div class="mission-image-container">
-        <img src=<?php echo $section_2_image['url'] ?> alt="languages" class="img-responsive mission-image">
+        <img src=<?php echo $section_2_image['url'] ?> alt=<?php echo $section_2_image['alt'] ?> class="img-responsive mission-image">
       </div>
     </div>
 
@@ -169,7 +169,7 @@ get_header(); ?>
   <div class="about-us-new row">
     <div class="col-md-6">
       <div class="mission-image-container">
-        <img src=<?php echo $section_3_image['url'] ?> alt="dialogue" class="img-responsive mission-image">
+        <img src=<?php echo $section_3_image['url'] ?> alt=<?php echo $section_3_image['alt'] ?> class="img-responsive mission-image">
       </div>    
     </div>
 
