@@ -13,6 +13,7 @@ $section_2_content = get_field('section_2_content');
 $section_3_image = get_field('section_3_image');
 $section_3_title = get_field('section_3_title');
 $section_3_content = get_field('section_3_content');
+$vision_content = get_field('vision_content');
 get_header(); ?>
 <div class="page-heading text-center">
 
@@ -196,10 +197,8 @@ get_header(); ?>
       <div class="row">
 
       <div class="col-md-12">
-       
-        <p style="text-align: center;&nbsp;italics">We envision a future where Indigenous youth leaders around the world inspire teams of young people to capture, revive, and reinvigorate their cultures, traditions, and languages through creating and discussing documentary films. </p>
-        <p style="text-align: center; italics"> We imagine these Indigenous youth leaders making social impacts, locally and globally by sharing their films across generational and geographical boundaries.</p> <p style="text-align: center; italics"> Listen to their visions!</p>
-      </div>
+        <p> <?php echo $vision_content ?></p>
+            </div>
 
         
 
