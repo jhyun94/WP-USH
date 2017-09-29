@@ -3,6 +3,8 @@
   Template Name: Collaborate
  */
 
+$main_image = get_field('main_image');
+$main_content = get_field('main_content');
 get_header(); ?>
 
   <div class="page-heading text-center">
@@ -25,19 +27,13 @@ get_header(); ?>
 
         <div class="col-md-6">
 
-          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/collaborate2.png" alt="" class="img-responsive">
+          <img src= <?php echo $main_image['url'] ?> alt="" class="img-responsive">
 
         </div>
 
         <div class="col-md-6">
           <h2 class="title-style-2">Collaborate! <span class="title-under"></span></h2>
-          <p> We welcome hosts, voulunteers, fundrasiers, and partners to join our passionate and visionary team. </p>
-          <p>As a <strong>Host,</strong> you can organize your own signature event or become a USH film distributor. &nbsp;You will spread the word about USH films and our innovative ways that we work with youth and their communities! </p>
-          <p> As a <strong>Volunteer</strong>, you join our creative process in person or remotely. Visit sites, where you apply film<strong>, </strong>storytelling, editing, entrepreneur, or language skills. Participate from home, helping us reach our ambitious aim of amplifying youth voice and leadership worldwide! </p>
-          <p><strong>Fundraise</strong> by organizing a small house party or initiating a larger crowd funding campaign and gain valuable strategy, business, and fundraising skills. We have starter booklets to help you plan. &nbsp;We also look forward to your imaginative ideas! </p>
-          <p>As a fervent <strong>Partners</strong> you can start your own chapter or connect us to new organization. &nbsp;Help expand our global reach. Work closely with local, Indigenous-run organization to expand the program in and beyond Guatemala. </p>
-          </p>
-          </p>
+          <p> <?php echo $main_content ?></p>
         </div>
 
       </div> <!-- /.row -->
