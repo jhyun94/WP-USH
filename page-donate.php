@@ -4,6 +4,8 @@
   Template Name: Donate
 
 */  
+$main_image = get_field('main_image');
+$main_content = get_field('main_content');
 get_header(); ?>
 
 <div class="page-heading text-center">
@@ -30,18 +32,12 @@ get_header(); ?>
 
         <div class="col-md-6">
 
-          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/donate.png" alt="" class="img-responsive">
+          <img src=<?php echo $main_image['url'] ?> alt="" class="img-responsive">
 
         </div>
 
         <div class="col-md-6">
-          <p>It's always the small pieces that make the big picture!</p>
-          <p><strong>Monthy Donations:</strong> It is easy to donate to USH. &nbsp;Just click, choose your amount and click send. You can choose to donate once, monthly, annually - what ever fits your lifestyle. &nbsp;And we'll be sure to send you updates. </p>
-          <p><strong>Equipment Donations:</strong> Have an extra camera or computer that you'd like to donate to our filmmakers? &nbsp;We can alway use more technology to place in the powerful hands of these inspired youth. This directly impacts the expansion of their voices! </p>
-          <p><strong>Suport an Executive Producer:</strong> Have you ever wanted to follow the daily life of a young filmmaker or track their creative process? You can request to support individuals like an executive producer. &nbsp;Connect with your filmmaker via twitter and follow their progress. </p>
-          <p><strong>Sponsortship Levels:</strong> Interested in expansion of the USH? Help us by sponsoring an individual, community, region or country. Contact us to find out how and for the details of where your contributions amplify Indigenous voices.</p>
-<p>A BIG Thank You from all of us at USH!! Your generous donations make our work possible!!
-</p>
+          <p> <?php echo $main_content ?> </p>
         </div>
 
       </div> <!-- /.row -->
