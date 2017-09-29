@@ -160,12 +160,6 @@ get_header(); ?>
 
                         <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/uncovering.png" alt="" class="cause-img">
 
-                        <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-                            10$ / 500$
-                          </div>
-                        </div>
-
                         <h4 class="cause-title"><a href="#">Key to Critical Inquiry</a></h4>
                         <div class="cause-details"> Develops the critical eye, leading youth to inquire about how media represents them and define how they envision expressing their worlds. </div>
 
@@ -187,11 +181,6 @@ get_header(); ?>
 
                         <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/reviving.png" alt="" class="cause-img">
 
-                        <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                            400$ / 700$
-                          </div>
-                        </div>
 
                         <h4 class="cause-title"><a href="#">Key to Creative Expression</a></h4>
                         <div class="cause-details"> Sparks a creative vision, facilitating youth as agents to capture, represent, &amp; revitalize their cultural knowledges, traditions, and languages,</div>
@@ -215,11 +204,6 @@ get_header(); ?>
 
                         <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/sharing.png" alt="" class="cause-img">
 
-                        <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-                            400$ / 1000$
-                          </div>
-                        </div>
 
                         <h4 class="cause-title"><a href="#">Key to Global Knowledge</a></h4>
                         <div class="cause-details"> Unlocks gateways to foster cultural understanding, and restore cultural knowledge across geographical &amp; generational bound-aries. </div>
@@ -242,11 +226,6 @@ get_header(); ?>
 
                         <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/leading.png" alt="" class="cause-img">
 
-                        <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                            400$ / 700$
-                          </div>
-                        </div>
 
                         <h4 class="cause-title"><a href="#">Key to Social Change</a></h4>
                         <div class="cause-details">Unleashes youth-led quests to raise awareness about community issues through film, joining together in a campaign for community change. </div>
