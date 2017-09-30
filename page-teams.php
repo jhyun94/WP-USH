@@ -2,15 +2,34 @@
 /*
   Template Name: Teams
 */
+$maya_image_1 = get_field('maya_image_1');
+$maya_title_1 = get_field('maya_title_1');
+$maya_content_1 = get_field('maya_content_1');
+$maya_image_2 = get_field('maya_image_2');
+$maya_title_2 = get_field('maya_title_2');
+$maya_content_2 = get_field('maya_content)2');
+$maya_image_3 = get_field('maya_image_3');
+$maya_title_3 = get_field('maya_title_3');
+$maya_content_3 = get_field('maya_content_3');
+$maya_image_4 = get_field('maya_image_4');
+$maya_title_4 = get_field('maya_title_4');
+$maya_content_4 = get_field('maya_content_4');
 
-$carlos_vasquez = get_field('carlos_vasquez');
-$chema_vasquez = get_field('chema_vasquez');
-$carmen_tzoc_portillo = get_field('carmen_tzoc_portillo');
-$elias_shevchenko = get_field('elias_shevchenko');
-$bryan_hunt = get_field('bryan_hunt');
-$reagan_cummings = get_field('reagan_cummings');
-$tiffany_locklear = get_field('tiffany_locklear');
-$denise_hunt = get_field('denise_hunt');
+$lumbee_image_1 = get_field('lumbee_image_1');
+$lumbee_title_1 = get_field('lumbee_title_1');
+$lumbee_content_1 = get_field('lumbee_content_1');
+$lumbee_image_2 = get_field('lumbee_image_2');
+$lumbee_title_2 = get_field('lumbee_title_2');
+$lumbee_content_2 = get_field('lumbee_content_2');
+$lumbee_image_3 = get_field('lumbee_image_3');
+$lumbee_title_3 = get_field('lumbee_title_3');
+$lumbee_content_3 = get_field('lumbee_content_3');
+$lumbee_image_4 = get_field('lumbee_image_4');
+$lumbee_title_4 = get_field('lumbee_title_4');
+$lumbee_content_4 = get_field('lumbee_content_4');
+
+$main_image = get_field('main_image');
+$main_content = get_field('main_content');
 get_header(); ?>
 
 
@@ -36,17 +55,13 @@ get_header(); ?>
 
         <div class="col-md-6">
 
-          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/USHStart.png" alt="" class="img-responsive">
+          <img src=<?php echo $main_image['url'] ?>  alt="" class="img-responsive">
 
         </div>
 
         <div class="col-md-6">
           <h2 data_temp_dwid="1">OUR START</h2>
-          <p>Catalina, Fabiola, Carmen, and Emilio were energized; thrilled to share their unique stories, knowledge and ideas through video. They were enthusiastic to learn the new technology and to teach us about their worlds. Each of them took to the streets to interview their peers and elders, capture everyday life, and construct stories through their own eyes. It was there, in the highlands of Guatamala, Unlocking Silent Histories (USH) was launched to help these young minds investigate their own neighborhoods. </p>
-          <p> Learning with and from these inspirational young minds, the approach of USH began taking shape. In the San Juan la Laguna community, six more students selected their own themes that they wanted to share with the world. After just one year, 10 burgeoning filmmakers created nine documentary films! </p>
-          <p>Three motivated program leaders from that first year stepped up and began interning to prepare for taking on the responsibility of teaching new groups of students. Striving to develop and grow the concept, the process moved into Santa Clara, Chuacruz, and into an additional group in San Juan. Most recently, USH delved into Santiago Atitlán, Quiejel, and Patanatic regions. The youth leaders accepted administrative responsibilities and continued to contribute their ideas shaping the vision and processes of the filmmaking, while also creating an historical account of their cultures. </p>
-          <p> It is through youth vision and direction along with strong local partnerships that USH is expanding to work with indigenous communities around the globe! </p>
-          <p>Stay Tuned!! </p>
+          <p> <?php echo $main_content ?> </p>
         </div>
 
       </div> <!-- /.row -->
@@ -85,13 +100,13 @@ get_header(); ?>
 
                           <div class="thumnail">
 
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Carlos.png" alt="" class="cause-img">
+                              <img src= <?php echo $maya_image_1['url'] ?> alt="" class="cause-img">
                               
                           </div>
 
 
 
-                          <h4 class="member-name" id="carlos">Carlos Vasquez</h4>
+                          <h4 class="member-name" id="carlos"> <?php echo $maya_title_1 ?> </h4>
 
                           <div class="member-position">
                               Program Leader Team
@@ -110,11 +125,11 @@ get_header(); ?>
                           <div class="bio-carlos modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Carlos.png" alt="" class="cause-img"/>
+                                <img src= <?php echo $maya_image_1['url'] ?> alt="" class="cause-img"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
-                                <p><? echo $carlos_vasquez ?></p>
+                                <p><? echo $maya_content_1 ?></p>
                               </div>
                             </div>
                           </div>
@@ -131,13 +146,13 @@ get_header(); ?>
 
                           <div class="thumnail">
 
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Chema.png" alt="" class="cause-img">
+                              <img src= <?php echo $maya_image_2['url'] ?> alt="" class="cause-img">
                               
                           </div>
 
 
 
-                          <h4 class="member-name" id="chema">Chema Vasquez</h4>
+                          <h4 class="member-name" id="chema"> <?php echo $maya_title_2 ?> </h4>
 
                           <div class="member-position">
                               Program Leader Team
@@ -156,11 +171,11 @@ get_header(); ?>
                           <div class="bio-chema modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Chema.png" alt="" class="cause-img"/>
+                                <img src= <?php echo $maya_image_2['url'] ?>  alt="" class="cause-img"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
-                                <p><?php echo $chema_vasquez ?></p>
+                                <p><?php echo $maya_content_2 ?></p>
                               </div>
                             </div>
                           </div>
@@ -178,13 +193,13 @@ get_header(); ?>
 
                           <div class="thumnail">
 
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Carmen.png" alt="" class="cause-img">
+                              <img src= <?php echo $maya_image_3['url'] ?> alt="" class="cause-img">
                               
                           </div>
 
 
 
-                          <h4 class="member-name" id="carmen">Carmen Tzoc Portillo</h4>
+                          <h4 class="member-name" id="carmen"> <?php echo $maya_title_3 ?> </h4>
 
                           <div class="member-position"> Program Leader Team</div>
 
@@ -201,11 +216,11 @@ get_header(); ?>
                           <div class="bio-carmen modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Carmen.png" alt="" class="cause-img"/>
+                                <img src= <?php echo $maya_image_3['url'] ?> alt="" class="cause-img"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
-                                <p><?php echo $carmen_tzoc_portillo ?></p>
+                                <p><?php echo $maya_content_3 ?> </p>
                               </div>
                             </div>
                           </div>
@@ -223,13 +238,13 @@ get_header(); ?>
 
                           <div class="thumnail">
 
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Elias.png" alt="" class="cause-img">
+                              <img src= <?php echo $maya_image_4['url'] ?> alt="" class="cause-img">
                               
                           </div>
 
 
 
-                          <h4 class="member-name" id="elias">Elias Shevchenko</h4>
+                          <h4 class="member-name" id="elias"> <?php echo $maya_title_4 ?> </h4>
 
                           <div class="member-position"> Program Leader Team</div>
 
@@ -246,11 +261,11 @@ get_header(); ?>
                           <div class="bio-elias modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Elias.png" alt="" class="cause-img"/>
+                                <img src= <?php echo $maya_image_4['url'] ?> alt="" class="cause-img"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
-                                <p><?php echo $elias_shevchenko ?></p>
+                                <p><?php echo $maya_content_4  ?> </p>
                               </div>
                             </div>
                           </div>
@@ -297,13 +312,13 @@ get_header(); ?>
 
                           <div class="thumnail">
 
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/bryan.png" alt="" class="cause-img">
+                              <img src= <?php echo $lumbee_image_1['url'] ?> alt="" class="cause-img">
                               
                           </div>
 
 
 
-                          <h4 class="member-name" id="bryan">Bryan Hunt</h4>
+                          <h4 class="member-name" id="bryan"> <?php echo $lumbee_title_1 ?> </h4>
 
                           <div class="member-position">
                               Program Leader Team
@@ -322,11 +337,11 @@ get_header(); ?>
                           <div class="bio-bryan modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/bryan.png" alt="" class="cause-img"/>
+                                <img src= <?php echo $lumbee_image_1['url'] ?> alt="" class="cause-img"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
-                                <p><?php echo $bryan_hunt ?></p>
+                                <p><?php echo $lumbee_content_1 ?></p>
                               </div>
                             </div>
                           </div>
@@ -343,13 +358,13 @@ get_header(); ?>
 
                           <div class="thumnail">
 
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/reagan.png" alt="" class="cause-img">
+                              <img src= <?php echo $lumbee_image_2['url'] ?> alt="" class="cause-img">
                               
                           </div>
 
 
 
-                          <h4 class="member-name" id="reagan">Reagan Cummings</h4>
+                          <h4 class="member-name" id="reagan"><?php echo $lumbee_title_2 ?></h4>
 
                           <div class="member-position">
                               Program Leader Team
@@ -368,11 +383,11 @@ get_header(); ?>
                           <div class="bio-reagan modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/reagan.png" alt="" class="cause-img"/>
+                                <img src= <?php echo $lumbee_image_2['url'] ?> alt="" class="cause-img"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
-                                <p><?php echo $reagan_cummings ?></p>
+                                <p><?php echo $lumbee_content_2 ?></p>
                               </div>
                             </div>
                           </div>
@@ -390,13 +405,13 @@ get_header(); ?>
 
                           <div class="thumnail">
 
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/tiffany.png" alt="" class="cause-img">
+                              <img src= <?php echo $lumbee_image_3['url'] ?> alt="" class="cause-img">
                               
                           </div>
 
 
 
-                          <h4 class="member-name" id="tiffany">Tiffany Locklear</h4>
+                          <h4 class="member-name" id="tiffany"> <?php echo $lumbee_title_3 ?> </h4>
 
                           <div class="member-position">Program Researcher</div>
 
@@ -413,11 +428,11 @@ get_header(); ?>
                           <div class="bio-tiffany modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/tiffany.png" alt="" class="cause-img"/>
+                                <img src= <?php echo $lumbee_image_3['url'] ?> alt="" class="cause-img"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
-                                <p><?php echo $tiffany_locklear ?></p>
+                                <p><?php echo $lumbee_content_3 ?></p>
                               </div>
                             </div>
                           </div>
@@ -435,13 +450,13 @@ get_header(); ?>
 
                           <div class="thumnail">
 
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/denise.png" alt="" class="cause-img">
+                              <img src= <?php echo $lumbee_image_4['url'] ?> alt="" class="cause-img">
                               
                           </div>
 
 
 
-                          <h4 class="member-name" id="denise">Denise Hunt</h4>
+                          <h4 class="member-name" id="denise"> <?php echo $lumbee_title_4 ?></h4>
 
                           <div class="member-position">Youth Recruitment</div>
 
@@ -458,11 +473,11 @@ get_header(); ?>
                           <div class="bio-denise modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/denise.png" alt="" class="cause-img"/>
+                                <img src= <?php echo $lumbee_image_4['ur'] ?> alt="" class="cause-img"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
-                                <p><?php echo $denise_hunt ?></p>
+                                <p><?php echo $lumbee_content_4 ?></p>
                               </div>
                             </div>
                           </div>
@@ -482,7 +497,10 @@ get_header(); ?>
     
 
 
-      </div><div class="row">
+      </div><div class="section-home about-us">
+
+
+                  <div class="row">
 
                       <div class="col-md-3 col-sm-6">
                 
@@ -494,6 +512,9 @@ get_header(); ?>
 
                       
                   </div> <!-- /.row -->
+
+            
+      </div>
       
       
       
