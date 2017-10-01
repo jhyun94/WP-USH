@@ -68,8 +68,13 @@ get_header(); ?>
 
         <div class="container">
           <h2>Annual Reports:</h2>
-          <p><span><a href="http://donnadegennaro.com/UnlockingSilentHistories/HTML/assets/reports/AnnualReport_2016.pdf" style="color: #328d88;" target="_blank">2016 Annual Report</a></span></p>
-          <p><span><a href="http://donnadegennaro.com/UnlockingSilentHistories/HTML/assets/reports/AnnualReport_2015.pdf" style="color: #328d88;" target="_blank">2015 Annual Report</a></span></p>
+          
+          <?php $annual_array = new WP_Query( array( 'post_type' => 'annual_reports') ); ?>
+          <?php while( $annual_array->have_posts() ) : $annual_array->the_post(); ?>
+            <p> <a href="<?php the_field('link') ?>" target="_blank"> <?php the_title() ?></a> </p>
+          <?php endwhile; ?>
+
+
           <h2>Newsletters:</h2>
           <p><span><a href="http://mailchi.mp/12b5af2c975e/2016-annual-report-2756018" style="color: #328d88;" target="_blank">May 2017</a></span></p>
           <p><span><a href="http://us3.campaign-archive2.com/?u=73e8b8cb16ba80affc09c7cb6&id=7948eb6249" style="color: #328d88;" target="_blank">October 2016</a></span></p>
