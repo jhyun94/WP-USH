@@ -1,7 +1,9 @@
 <?php
 /*
   Template Name: Reports
-*/  
+*/
+$main_image = get_field('main_image');
+$main_content = get_field('main_content');
 get_header(); ?>
 
 
@@ -27,17 +29,13 @@ get_header(); ?>
 
         <div class="col-md-6">
 
-          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/reports.png" alt="" class="img-responsive">
+          <img src= <?php echo $main_image['url'] ?> alt="" class="img-responsive">
 
         </div>
 
         <div class="col-md-6">
           <h2>Reporting our Progress</h2>
-          <p>We always look forward to sharing our progress with you. &nbsp;To do so, we have a number of initiatives underway. &nbsp;For now, the best way to stay up to date is to subscribe to our newsletter or follow our blog. </p>
-          <p>To subscribe to our newsletter, <span><a href="http://unlockingsilenthistories.us3.list-manage.com/subscribe?u=73e8b8cb16ba80affc09c7cb6&id=73f5a94111" style="color: #328d88;" target="_blank">please click here and follow the instructions.</a></span></p>
-          <p> In addition to these options, we publish an annual report that recaps the major milestones and events for the year. &nbsp;In addition to boasting about the great progress the youth are making, both with their videos and with building USH, our annual report is an opportunity for us to share our metrics and financial data with you. </p>
-          <p>Scroll down and to read our past reports and newsletters.</p>
-          <p>We invite you to follow us and contribute your thoughts, ideas, and feedback at any time!</p>
+          <p> <?php echo $main_content ?> </p>
           
         </div>
 
