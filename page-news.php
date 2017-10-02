@@ -2,6 +2,9 @@
 /* 
   Template Name: News
 */  
+
+$main_image = get_field('main_image');
+$main_content = get_field('main_content');
 get_header(); ?>
 
   <div class="page-heading text-center">
@@ -22,17 +25,13 @@ get_header(); ?>
 
         <div class="col-md-6">
 
-          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/publication.png" alt="" class="img-responsive">
+          <img src= <?php echo $main_image['url'] ?> alt="" class="img-responsive">
 
         </div>
 
         <div class="col-md-6">
           <h2>SHARING THE WORK</h2>
-          <p>many ways that we share our work</p>
-          <p> Publications</p>
-          <p>News</p>
-          <p> radio</p>
-          <p>etc... </p>
+          <p><?php echo $main_content ?></p>
         </div>
 
       </div> <!-- /.row -->
