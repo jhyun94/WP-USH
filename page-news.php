@@ -70,12 +70,20 @@ get_header(); ?>
       
 
       <h2>Book:</h2>
-      <p><span><a href="https://www.sensepublishers.com/catalogs/bookseries/bold-visions-in-educational-research/designing-critical-and-creative-learning-with-indigenous-youth/" style="color: #328d88;" target="_blank">Designing Critical and Creative Learning with Indigenous Youth</a></span></p>
+      <?php $books_array = new WP_Query( array('cat' => 4) ); ?>
+      <?php while( $books_array->have_posts() ) : $books_array->the_post(); ?>
+        <p><span><a href="<?php the_field('link') ?>" target="_blank"> <?php the_title() ?></a></span></p>
+      <?php endwhile; ?>
+
+
      
       <h2>Radio</h2>
-     <p><span><a href="http://whqr.org/post/indigenous-youth-media-expression-through-unlocking-silent-histories" style="color: #328d88;" target="_blank">WHQR (Midday Interview with Gina Gambony: Local Wilmington NPR)</a></span></p>
+      <?php $radio_array = new WP_Query( array('cat' => 5) ); ?>
 
-<p><span><a href="https://archive.org/details/PeopleUnited20140530" style="color: #328d88;" target="_blank">People Unite (Interview with Allan Campbell on KOOP Radio)</a></span></p>
+      <?php while( $radio_array->have_posts() ) : $radio_array->the_post(); ?>
+        <p><span><a href="<?php the_field('link') ?>" target="_blank"> <?php the_title() ?></a></span></p>
+      <?php endwhile; ?>
+     
           
       <h2>Journals & Magazines</h2>
           <p class="headingTxt" style="color: #3b3b3b; margin-bottom: 10px;"><a href="http://www.wilmaontheweb.com/April-2016/Global-Good/" style="color: #328d88;" target="_blank">WILMA</a></p>
