@@ -85,9 +85,10 @@ get_header(); ?>
      
           
       <h2>Journals & Magazines</h2>
-          <p class="headingTxt" style="color: #3b3b3b; margin-bottom: 10px;"><a href="http://www.wilmaontheweb.com/April-2016/Global-Good/" style="color: #328d88;" target="_blank">WILMA</a></p>
-          <p style="color: #3b3b3b; margin-bottom: 10px;"><a href="http://austinfusionmagazine.com/2014/05/28/unlocking-silent-histories-stories-behind-the-storytelling/" style="color: #328d88;" target="_blank">Austin Fusion</a></p>
-<p class="headingTxt" style="color: #3b3b3b; margin-bottom: 10px;"><a href="http://www.edutopia.org/blog/unlocking-silent-histories-creative-expression-donna-degennaro" style="color: #328d88;" target="_blank">Edutopia</a></p>
+      <?php $journal_array = new WP_Query( array('cat' => 6) ); ?>
+      <?php while( $journal_array->have_posts() ) : $journal_array->the_post(); ?>
+        <p><span><a href="<?php the_field('link') ?>" target="_blank"> <?php the_title() ?></a></span><p>
+      <?php endwhile; ?>
           
       <h2>In The News</h2>
           <p><span><a href="http://nativenewsonline.net/currents/unlocking-silent-histories/" style="color: #328d88;"></a><a href="http://www.starnewsonline.com/article/20160516/entertainment/160519742?p=all&amp;tc=pgall" style="color: #328d88;" target="_blank">Star News Wilmington</a></span></p>
