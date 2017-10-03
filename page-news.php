@@ -98,11 +98,10 @@ get_header(); ?>
 
           
       <h2>Grants</h2>
-      <p style="color: #3b3b3b; margin-bottom: 10px;"><a href="https://www.kickstarter.com/projects/640642237/unlocking-silent-histories" target="_blank" style="color: #328d88;">Kickstarter (2013)</a></p>
-<p style="color: #3b3b3b; margin-bottom: 10px;"><a href="http://thepollinationproject.org/grants-awarded/donna-degennaro-unlocking-silent-histories/" target="_blank" style="color: #328d88;">Pollination Project Seed Grant</a></p>
-<p style="color: #3b3b3b; margin-bottom: 10px;"><a href="https://thepollinationproject.org/grants-awarded/unlocking-silent-histories/" target="_blankdata_liveedit_tagid=" style="color: #328d88;">Pollination Project Impact Grant (2015)</a></p>
-<p style="color: #3b3b3b; margin-bottom: 10px;"><a href="http://uncw.edu/research/2016CahillAwardWinners.html" target="_blankdata_liveedit_tagid=" style="color: #328d88;">Cahill Award (2016)</a></p>
-
+        <?php $grants_array = new WP_Query( array( 'cat' => 8) ); ?>
+        <?php while( $grants_array->have_posts() ) : $grants_array->the_post(); ?>
+          <p><span><a href="<?php the_field('link')?>" target="_blank"> <?php the_title() ?></a></span></p>
+        <?php endwhile; ?>
 
 <!-- /.row -->
     </div>
