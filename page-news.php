@@ -91,12 +91,10 @@ get_header(); ?>
       <?php endwhile; ?>
           
       <h2>In The News</h2>
-          <p><span><a href="http://nativenewsonline.net/currents/unlocking-silent-histories/" style="color: #328d88;"></a><a href="http://www.starnewsonline.com/article/20160516/entertainment/160519742?p=all&amp;tc=pgall" style="color: #328d88;" target="_blank">Star News Wilmington</a></span></p>
-<p class="headingTxt" style="margin-bottom: 10px;"><span><a href="http://nativenewsonline.net/currents/unlocking-silent-histories/" style="color: #328d88;" target="_blank">Native News Online</a></span></p>
-<p class="headingTxt" style="color: #3b3b3b; margin-bottom: 10px;"><a href="http://www.wilmaontheweb.com/April-2016/Global-Good/" style="color: #328d88;"></a><a href="/Portals/0/Documents/News/SouthEndNews.pdf" style="color: #328d88;" target="_blank">South End News, Boston</a></p>
-
-<p class="headingTxt" style="color: #3b3b3b; margin-bottom: 10px;"><a href="http://firstpeoples.org/wp/2014/08/" style="color: #328d88;" target="_blank">First Peoples Worldwide</a></p>
-<p style="color: #3b3b3b; margin-bottom: 10px;"><a href="/Portals/0/Documents/News/Good100.pdf?ver=2016-05-14-055808-240" style="color: #328d88;" target="_blank">Good INC 100 (Top 100 Do-Gooders: 2014)</a></p>
+          <?php $news_array = new WP_Query( array( 'cat' => 7) ); ?>
+          <?php while( $news_array->have_posts() ) : $news_array->the_post(); ?>
+            <p><span><a href="<?php the_field('link')?>" target="_blank"> <?php the_title() ?></a></span></p>
+          <?php endwhile; ?>
 
           
       <h2>Grants</h2>
