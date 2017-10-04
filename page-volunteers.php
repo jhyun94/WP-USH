@@ -135,6 +135,53 @@ get_header(); ?>
 
                   <div class="col-md-3 col-sm-6">
 
+                    <?php $volunteer_array = new WP_Query( array( 'cat' => 9) ); ?>
+                      <?php while( $volunteer_array->have_posts() ) : $volunteer_array->the_post(); ?>
+                      
+                      <div class="team-member">
+
+                          <div class="thumnail">
+
+                              <img src=<?php the_field('image') ?> alt="" class="cause-img">
+                              
+                          </div>
+
+
+
+                          <h4 class="member-name" id="<?php the_field('class_id_name') ?>"> <?php the_field('name') ?></h4>
+
+                          <div class="member-position">
+                              <?php the_field('position') ?>
+                          </div>
+
+                          <div class="btn-holder">
+
+                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
+                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
+                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
+                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
+                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
+                            
+                          </div>
+                          
+                          <div class="bio-<?php the_field('class_id_name') ?> modal">
+                            <div class="modal-content">
+                              <div class="header">                               
+                                <img src=<?php the_field('image') ?> alt="" class="cause-img"/>
+                                <span class="close">&times;</span>
+                              </div>
+                              <div class="description">
+                                <p><?php the_field('description') ?></p>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+
+                      </div> <!-- /.team-member -->
+
+                    <?php endwhile; ?>
+
                       <div class="team-member">
 
                           <div class="thumnail">
