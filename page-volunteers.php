@@ -8,6 +8,8 @@ $jerome_atger = get_field('jerome_atger');
 $lacey_schauwecker = get_field('lacey_schauwecker');
 $shani_leigh_searcy = get_field('shani_leigh_searcy');
 $jonathan_hyun = get_field('jonathan_hyun');
+$main_image = get_field('main_image');
+$main_content = get_field('main_content');
 get_header(); ?>
 
 <div class="page-heading text-center">
@@ -31,17 +33,13 @@ get_header(); ?>
 
         <div class="col-md-6">
 
-          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/boards.png" alt="" class="img-responsive">
+          <img src=<?php echo $main_image['url'] ?> alt="" class="img-responsive">
 
         </div>
 
         <div class="col-md-6">
           <h2>LIKE EXTRAS IN A FILM!</h2>
-          <p>Our volunteers have a passion for working with youth and film.  Like extras on a set, these people play key roles to ensure that the productions come to fruition. &nbsp;They selflessly dedicate their time to various aspects of our organization's development.&nbsp;</p>
-          <p> As a Volunteer, you join our creative process in person or remotely. Visit sites, where you apply film, storytelling, editing, entrepreneur, or language skills. Participate from home, helping us reach our ambitious aim of amplifying youth voice and leadership worldwide! </p>
-          <p>Scroll down to meet our current volunteers.</p>
-          <p>Feel free to reach out to them, ask them what they are doing, and how their experiences have helped us reach our goals. </p>
-          <p>To send a request or inquiry, please click the button below and fill out our form: </p>
+            <p><?php echo $main_content ?></p>
           <button class="volunteer-btn  form-btn volunteer">Volunteer</button> 
                         <div class="modal" id="volunteer">
                           <div class="form-content">
