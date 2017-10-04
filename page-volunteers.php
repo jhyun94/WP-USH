@@ -4,10 +4,6 @@
 
 */ 
 
-$jerome_atger = get_field('jerome_atger');
-$lacey_schauwecker = get_field('lacey_schauwecker');
-$shani_leigh_searcy = get_field('shani_leigh_searcy');
-$jonathan_hyun = get_field('jonathan_hyun');
 $main_image = get_field('main_image');
 $main_content = get_field('main_content');
 get_header(); ?>
@@ -133,11 +129,11 @@ get_header(); ?>
 
          
 
-                  <div class="col-md-3 col-sm-6">
+                  
 
                     <?php $volunteer_array = new WP_Query( array( 'cat' => 9) ); ?>
                       <?php while( $volunteer_array->have_posts() ) : $volunteer_array->the_post(); ?>
-                      
+                      <div class="col-md-3 col-sm-6">
                       <div class="team-member">
 
                           <div class="thumnail">
@@ -179,186 +175,12 @@ get_header(); ?>
                           
 
                       </div> <!-- /.team-member -->
+                    </div>  
 
                     <?php endwhile; ?>
 
-                      <div class="team-member">
-
-                          <div class="thumnail">
-
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/jerome.png" alt="" class="cause-img">
-                              
-                          </div>
-
-
-
-                          <h4 class="member-name" id=jerome>Jerome Atger</h4>
-
-                          <div class="member-position">
-                              Leadership Development
-                          </div>
-
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
-                          
-                          <div class="bio-jerome modal">
-                            <div class="modal-content">
-                              <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/jerome.png" alt="" class="cause-img"/>
-                                <span class="close">&times;</span>
-                              </div>
-                              <div class="description">
-                                <p><?php echo $jerome_atger ?></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          
-
-                      </div> <!-- /.team-member -->
                       
-                </div>
-
-                  <div class="col-md-3 col-sm-6">
-
-                      <div class="team-member">
-
-                          <div class="thumnail">
-
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Lacey.png" alt="" class="cause-img">
-                              
-                          </div>
-
-
-
-                          <h4 class="member-name" id=lacey>Lacey Schauwecker</h4>
-
-                          <div class="member-position"> Leadership Development</div>
-
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
-                          
-                          <div class="bio-lacey modal">
-                            <div class="modal-content">
-                              <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Lacey.png" alt="" class="cause-img"/>
-                                <span class="close">&times;</span>
-                              </div>
-                              <div class="description">
-                                <p><?php echo $lacey_schauwecker ?></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          
-
-                      </div> <!-- /.team-member -->
-                      
-                  </div>
-
-
-                  <div class="col-md-3 col-sm-6">
-
-                      <div class="team-member">
-
-                          <div class="thumnail">
-
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/shani.png" alt="" class="cause-img">
-                              
-                          </div>
-
-
-
-                          <h4 class="member-name" id=shani>Shani-Leigh Searcy</h4>
-
-                          <div class="member-position">Fundraising</div>
-
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
-                          
-                          <div class="bio-shani modal">
-                            <div class="modal-content">
-                              <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/shani.png" alt="" class="cause-img"/>
-                                <span class="close">&times;</span>
-                              </div>
-                              <div class="description">
-                                <p><?php echo $shani_leigh_searcy ?></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          
-
-                      </div> <!-- /.team-member -->
-                      
-                  </div>
-
-
-                  <div class="col-md-3 col-sm-6">
-
-                      <div class="team-member">
-
-                          <div class="thumnail">
-
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/jonathan.png" alt="" class="cause-img">
-                              
-                          </div>
-
-
-
-                          <h4 class="member-name" id='jonathan'>Jonathan Hyun</h4>
-
-                          <div class="member-position">Web Design</div>
-
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
-                          
-                          <div class="bio-jonathan modal">
-                            <div class="modal-content">
-                              <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/jonathan.png" alt="" class="cause-img"/>
-                                <span class="close">&times;</span>
-                              </div>
-                              <div class="description">
-                                <p><?php echo $jonathan_hyun ?></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          
-
-                      </div> <!-- /.team-member -->
-                      
-                  </div>
+                    
 
               </div> <!-- /.row -->
       </div>
