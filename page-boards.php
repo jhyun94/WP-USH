@@ -2,18 +2,6 @@
 /*
   Template Name: Boards
 */
-$donna_degennaro = get_field('donna_degennaro');
-$ingrid_sub_cuc = get_field('ingrid_sub_cuc');
-$jennifer_baker = get_field('jennifer_baker');
-$mark_mcmullen = get_field('mark_mcmullen');
-$temis_quiroga = get_field('temis_quiroga');
-$nikki_young = get_field('nikki_young');
-$heather_lascano = get_field('heather_lascano');
-$janelle_babington = get_field('janelle_babington');
-$chico_colvard = get_field('chico_colvard');
-$rachel_fox = get_field('rachel_fox');
-$ricardo_duque = get_field('ricardo_duque');
-$jk_presnal = get_field('jk_presnal');
 
 get_header(); ?>
 
