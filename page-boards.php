@@ -481,23 +481,23 @@ learning and research, and performed as follow; and</li></p>
           <div class="container">
             <h2 class="title-style-1">OUR ADVISORY TEAM<span class="title-under"></span></h2>
             <div class="row">
-
-                  <div class="col-md-3 col-sm-6">
-
+              <?php $advisory_array = new WP_Query( array( 'cat' => 10) ); ?>
+                      <?php while( $advisory_array->have_posts() ) : $advisory_array->the_post(); ?>
+                      <div class="col-md-3 col-sm-6">
                       <div class="team-member">
 
                           <div class="thumnail">
 
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/chico.png" alt="" class="cause-img">
+                              <img src=<?php the_field('image') ?> alt="" class="cause-img">
                               
                           </div>
 
 
 
-                          <h4 class="member-name" id=chico>Chico Colvard</h4>
+                          <h4 class="member-name" id="<?php the_field('class_id_name') ?>"> <?php the_field('name') ?></h4>
 
                           <div class="member-position">
-                              Film Consultant
+                              <?php the_field('position') ?>
                           </div>
 
                           <div class="btn-holder">
@@ -510,14 +510,14 @@ learning and research, and performed as follow; and</li></p>
                             
                           </div>
                           
-                          <div class="bio-chico modal">
+                          <div class="bio-<?php the_field('class_id_name') ?> modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/chico.png" alt="" class="cause-img"/>
+                                <img src=<?php the_field('image') ?> alt="" class="cause-img"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
-                                <p><?php echo $chico_colvard ?></p>
+                                <p><?php the_field('description') ?></p>
                               </div>
                             </div>
                           </div>
@@ -525,156 +525,24 @@ learning and research, and performed as follow; and</li></p>
                           
 
                       </div> <!-- /.team-member -->
-                      
-                </div>
+                    </div>  
 
-                  <div class="col-md-3 col-sm-6">
+                    <?php endwhile; ?>
+            </div>
 
-                      <div class="team-member">
-
-                          <div class="thumnail">
-
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/rachel.png" alt="" class="cause-img">
-                              
-                          </div>
+                  
 
 
 
-                          <h4 class="member-name" id=rachel>Rachel Fox</h4>
+      </div> <!-- closes container -->
 
-                          <div class="member-position">
-                              Development Consultant
-                          </div>
-
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
-                          
-                          <div class="bio-rachel modal">
-                            <div class="modal-content">
-                              <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/rachel.png" alt="" class="cause-img"/>
-                                <span class="close">&times;</span>
-                              </div>
-                              <div class="description">
-                                <p><?php echo $rachel_fox ?></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          
-
-                      </div> <!-- /.team-member -->
-                      
-                  </div>
-
-
-                  <div class="col-md-3 col-sm-6">
-
-                      <div class="team-member">
-
-                          <div class="thumnail">
-
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/rick.png" alt="" class="cause-img">
-                              
-                          </div>
-
-
-
-                          <h4 class="member-name" id=rick>Ricardo Duque</h4>
-
-                          <div class="member-position">Research Consultant</div>
-
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
-                          
-                          <div class="bio-rick modal">
-                            <div class="modal-content">
-                              <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/rick.png" alt="" class="cause-img"/>
-                                <span class="close">&times;</span>
-                              </div>
-                              <div class="description">
-                                <p><?php echo $richardo_duque ?></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          
-
-                      </div> <!-- /.team-member -->
-                      
-                  </div>
-
-
-                  <div class="col-md-3 col-sm-6">
-
-                      <div class="team-member">
-
-                          <div class="thumnail">
-
-                              <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/jk.png" alt="" class="cause-img">
-                              
-                          </div>
-
-
-
-                          <h4 class="member-name" id=jk>JK Presnal</h4>
-
-                          <div class="member-position">Film Consultant</div>
-
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
-                          
-                          <div class="bio-jk modal">
-                            <div class="modal-content">
-                              <div class="header">                               
-                                <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/jk.png" alt="" class="cause-img"/>
-                                <span class="close">&times;</span>
-                              </div>
-                              <div class="description">
-                                <p><?php echo $jk_presnal ?></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          
-
-                      </div> <!-- /.team-member -->
-                      
-                  </div>
-
-              </div> <!-- /.row -->
-      </div>
-
-          </div>
+          </div> <!-- closes our team -->
 
       </div>
     
 
 
-  </div>
-   <div class="section-home about-us">
+  </div><div class="section-home about-us">
 
 
                   <div class="row">
@@ -691,5 +559,6 @@ learning and research, and performed as follow; and</li></p>
                   </div> <!-- /.row -->
 
             
-      </div> </div>
+      </div>
+    </div>
  <?php get_footer(); ?>
