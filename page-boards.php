@@ -2,7 +2,8 @@
 /*
   Template Name: Boards
 */
-
+$main_image = get_field('main_image');
+$main_content = get_field('main_content');
 get_header(); ?>
 
   <div class="page-heading text-center">
@@ -26,21 +27,13 @@ get_header(); ?>
 
         <div class="col-md-6">
 
-          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/about-us.png" alt="" class="img-responsive">
+          <img src=<?php echo $main_image['url'] ?> alt="" class="img-responsive">
 
         </div>
 
         <div class="col-md-6">
           <h2>The Board Mission</h2>
-          <p>Our board consists of members dedicatd to amplifying the voices and identities of Indigenous youth and their communities through film. &nbsp;We have two functioning boards, an Executive Team and a Consulting Team. &nbsp;Our Executive team is responsible for ensuring that we stay true to our Mission and Vision. </p>
-          <p>Our role as board members is to work within the vision of USH. &nbsp;Specifically, we agree on two things that can not try to change: </p>
-          <p><li>Youth, and local Program directors are actually the leaders of USH. For example these are the owners of the project, way of
-learning and research, and performed as follow; and</li></p>
-          <p><li>Young people have rights to select their subjects, and make their own stories. We favor the ideas and voices of young and older
-          participants of our own indigenous.</li></p>
-            <p> We listen first and ask questions that evoke the inner thought and not impose ideas. </p>
-             <p>Our consulting board advises our Executive Team on varioius aspects of the organization.  These include organizational structure, research, fundraising, finances, and film development.</p>
-             <p>Please scroll down to meet our teams.</p>
+          <p><?php echo $main_content ?></p>
         </div>
 
       </div> <!-- /.row -->
@@ -75,7 +68,7 @@ learning and research, and performed as follow; and</li></p>
 
             <?php $exec_array = new WP_Query( array('cat' => 11) ); ?>
             <?php while( $exec_array->have_posts() ) : $exec_array->the_post() ?>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-3 col-sm-6 exec-container">
                       <div class="team-member">
 
                           <div class="thumnail">
