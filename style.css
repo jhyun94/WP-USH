@@ -1153,6 +1153,12 @@ form .alert {
   opacity: 1;
 }
 
+/* boards page
+=============== */
+.exec-container {
+  margin-bottom: 20px;
+}
+
 
 
 
