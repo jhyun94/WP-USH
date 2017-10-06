@@ -93,23 +93,24 @@ get_header(); ?>
           <div class="container">
             <h2 class="title-style-1">Our maya Guatemala Team <span class="title-under"></span></h2>
             <div class="row">
-
-                  <div class="col-md-3 col-sm-6">
+              <?php $maya_array = new WP_Query( array('cat' => 13) ); ?>
+              <?php while ( $maya_array->have_posts() ) : $maya_array->the_post() ?>
+                <div class="col-md-3 col-sm-6">
 
                       <div class="team-member">
 
                           <div class="thumnail">
 
-                              <img src= <?php echo $maya_image_1['url'] ?> alt="" class="cause-img">
+                              <img src="<?php the_field('image') ?>" alt="" class="cause-img">
                               
                           </div>
 
 
 
-                          <h4 class="member-name" id="carlos"> <?php echo $maya_title_1 ?> </h4>
+                          <h4 class="member-name" id="<?php the_field('class_id_name') ?>"> <?php the_title() ?> </h4>
 
                           <div class="member-position">
-                              Program Leader Team
+                              <?php the_field('position') ?>
                           </div>
 
                           <div class="btn-holder">
@@ -122,14 +123,14 @@ get_header(); ?>
                             
                           </div>
 
-                          <div class="bio-carlos modal">
+                          <div class="bio-<?php the_field('class_id_name') ?> modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src= <?php echo $maya_image_1['url'] ?> alt="" class="cause-img"/>
+                                <img src="<?php the_field('image') ?>" alt="" class="cause-img"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
-                                <p><? echo $maya_content_1 ?></p>
+                                <p><?php the_field('description') ?></p>
                               </div>
                             </div>
                           </div>
@@ -140,159 +141,9 @@ get_header(); ?>
                       
                 </div>
 
-                  <div class="col-md-3 col-sm-6">
+              <?php endwhile; ?>
 
-                      <div class="team-member">
-
-                          <div class="thumnail">
-
-                              <img src= <?php echo $maya_image_2['url'] ?> alt="" class="cause-img">
-                              
-                          </div>
-
-
-
-                          <h4 class="member-name" id="chema"> <?php echo $maya_title_2 ?> </h4>
-
-                          <div class="member-position">
-                              Program Leader Team
-                          </div>
-
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
-
-                          <div class="bio-chema modal">
-                            <div class="modal-content">
-                              <div class="header">                               
-                                <img src= <?php echo $maya_image_2['url'] ?>  alt="" class="cause-img"/>
-                                <span class="close">&times;</span>
-                              </div>
-                              <div class="description">
-                                <p><?php echo $maya_content_2 ?></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          
-
-                      </div> <!-- /.team-member -->
-                      
-                  </div>
-
-
-                  <div class="col-md-3 col-sm-6">
-
-                      <div class="team-member">
-
-                          <div class="thumnail">
-
-                              <img src= <?php echo $maya_image_3['url'] ?> alt="" class="cause-img">
-                              
-                          </div>
-
-
-
-                          <h4 class="member-name" id="carmen"> <?php echo $maya_title_3 ?> </h4>
-
-                          <div class="member-position"> Program Leader Team</div>
-
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
-
-                          <div class="bio-carmen modal">
-                            <div class="modal-content">
-                              <div class="header">                               
-                                <img src= <?php echo $maya_image_3['url'] ?> alt="" class="cause-img"/>
-                                <span class="close">&times;</span>
-                              </div>
-                              <div class="description">
-                                <p><?php echo $maya_content_3 ?> </p>
-                              </div>
-                            </div>
-                          </div>
-
-                          
-
-                      </div> <!-- /.team-member -->
-                      
-                  </div>
-
-
-                  <div class="col-md-3 col-sm-6">
-
-                      <div class="team-member">
-
-                          <div class="thumnail">
-
-                              <img src= <?php echo $maya_image_4['url'] ?> alt="" class="cause-img">
-                              
-                          </div>
-
-
-
-                          <h4 class="member-name" id="elias"> <?php echo $maya_title_4 ?> </h4>
-
-                          <div class="member-position"> Program Leader Team</div>
-
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
-
-                          <div class="bio-elias modal">
-                            <div class="modal-content">
-                              <div class="header">                               
-                                <img src= <?php echo $maya_image_4['url'] ?> alt="" class="cause-img"/>
-                                <span class="close">&times;</span>
-                              </div>
-                              <div class="description">
-                                <p><?php echo $maya_content_4  ?> </p>
-                              </div>
-                            </div>
-                          </div>
-
-                          
-
-                      </div> <!-- /.team-member -->
-                      
-                  </div>
-
-              </div> <!-- /.row -->
-              
-              <div class="section-home about-us">
-
-
-                  <div class="row">
-
-                      <div class="col-md-3 col-sm-6">
-                
-                
-                  
-                        
-                      </div>
-                      
-
-                      
-                  </div> <!-- /.row -->
+              </div>
 
             
           </div> 
