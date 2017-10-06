@@ -2,31 +2,7 @@
 /*
   Template Name: Teams
 */
-$maya_image_1 = get_field('maya_image_1');
-$maya_title_1 = get_field('maya_title_1');
-$maya_content_1 = get_field('maya_content_1');
-$maya_image_2 = get_field('maya_image_2');
-$maya_title_2 = get_field('maya_title_2');
-$maya_content_2 = get_field('maya_content)2');
-$maya_image_3 = get_field('maya_image_3');
-$maya_title_3 = get_field('maya_title_3');
-$maya_content_3 = get_field('maya_content_3');
-$maya_image_4 = get_field('maya_image_4');
-$maya_title_4 = get_field('maya_title_4');
-$maya_content_4 = get_field('maya_content_4');
 
-$lumbee_image_1 = get_field('lumbee_image_1');
-$lumbee_title_1 = get_field('lumbee_title_1');
-$lumbee_content_1 = get_field('lumbee_content_1');
-$lumbee_image_2 = get_field('lumbee_image_2');
-$lumbee_title_2 = get_field('lumbee_title_2');
-$lumbee_content_2 = get_field('lumbee_content_2');
-$lumbee_image_3 = get_field('lumbee_image_3');
-$lumbee_title_3 = get_field('lumbee_title_3');
-$lumbee_content_3 = get_field('lumbee_content_3');
-$lumbee_image_4 = get_field('lumbee_image_4');
-$lumbee_title_4 = get_field('lumbee_title_4');
-$lumbee_content_4 = get_field('lumbee_content_4');
 
 $main_image = get_field('main_image');
 $main_content = get_field('main_content');
