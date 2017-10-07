@@ -41,112 +41,42 @@ get_header(); ?>
 
 
                   <div class="row">
+                    <?php $event_array = new WP_Query( array('cat' => 15) ); ?>
+                    <?php while( $event_array->have_posts() ) : $event_array->the_post() ?>
 
                       <div class="col-md-3 col-sm-6">
                 
                 
-                  <div class="about-us-col">
+                        <div class="about-us-col">
 
                         <div class="col-icon-wrapper">
-                          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/show.png" alt="">
+                          <img src="<?php the_field('image') ?>" alt="">
                         </div>
-                        <h3 class="col-title">Past Shows</h3>
+                        <h3 class="col-title"> <?php the_field('title') ?></h3>
                         <div class="col-details">
-                          <p><center>Where We've Been</center></p>
+                          <p><center> <?php the_field('sub_title') ?></center></p>
                         </div>
-                        <div class="btn btn-primary event-btn" id="past"> Read more </div>
-                        <div class="event-past modal">
+                        <div class="btn btn-primary event-btn" id="<?php the_field('class_id_name') ?>"> Read more </div>
+                        <div class="event-<?php the_field('class_id_name') ?> modal">
                           <div class="modal-content">
                             <span class="close">&times;</span>
-                            <h2>Default text</h2>
-                            <p>default text</p>
+                            <p> <?php the_field('description') ?></p>
                           </div>
                         </div>
                     
                   </div>
                   
-                </div>
-
-
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
-
-                        <div class="col-icon-wrapper">
-                          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/past.png" alt="">
-                        </div>
-                        <h3 class="col-title">New premieres</h3>
-                        <div class="col-details">
-                          <p><center>Come See Us</center></p>
-                        </div>
-                        <div class="btn btn-primary event-btn" id="premieres"> Read more </div>
-                        <div class="event-premieres modal">
-                          <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <h2>Default text</h2>
-                            <p>default text</p>
-                          </div>
-                        </div>
-                    
                   </div>
-                  
-                </div>
 
 
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
+                <?php endwhile; ?>
 
-                        <div class="col-icon-wrapper">
-                          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/talks.png" alt="">
-                        </div>
-                        <h3 class="col-title">Interactives</h3>
-                        <div class="col-details">
-                          <p><center>Meet and Greet</center></p>
-                        </div>
-                        <div class="btn btn-primary event-btn" id="interactive"> Read more </div>
-                        <div class="event-interactive modal">
-                          <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <h2>Default text</h2>
-                            <p>default text</p>
-                          </div>
-                        </div>
-                    
-                  </div>
-                  
-                </div>
-
-
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
-
-                        <div class="col-icon-wrapper">
-                          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/organize.png" alt="">
-                        </div>
-                        <h3 class="col-title">Organize</h3>
-                        <div class="col-details">
-                          <p><center>Bring Us to You</center></p>
-                        </div>
-                        <a href="#" class="btn btn-primary event-btn" id="organize"> Read more </a>
-                        <div class="event-organize modal">
-                          <div class="modal-content">
-                            <h2>Default text</h2>
-                            <p>default text</p>
-                          </div>
-                        </div>
-                          
-                        </div>
-                        
-                      </div>
+                     
                       
 
                       
                   </div> <!-- /.row -->
 
-            
-          </div> 
 
     </div> <!-- /.about-us -->
 
