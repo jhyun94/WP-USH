@@ -4,6 +4,7 @@
   Template Name: Lumbee
 
 */
+$lumbee_resize = get_field('lumbee_resize');
 get_header();  
 ?>
 
@@ -47,3 +48,4 @@ get_header();
 
 
 <?php get_footer(); ?>
+<script><?php echo $lumbee_resize ?></script>
