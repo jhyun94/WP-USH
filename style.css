@@ -557,6 +557,7 @@ a:hover, a:focus, a:active {
 }
 .about-us-col .col-icon-wrapper {
   min-height: 80px;
+  padding-top: 20px;
 }
 .about-us-col .col-title {
   text-transform: uppercase;
@@ -1325,6 +1326,10 @@ form .alert {
     text-align: center;
     padding-left: 14px;
     padding-right: 14px;
+  }
+
+  .about-us-col .col-icon-wrapper {
+    padding-top: -20px;
   }
 }
 /* Small devices (tablets, 768px and Down) */
