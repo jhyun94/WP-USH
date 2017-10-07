@@ -25,94 +25,16 @@ get_header();
     <div class="container gallery fadeIn animated">
 
       <div class="row">
-        <div class="col-md-3">
+        <?php $lumbee_array = new WP_Query( array('cat' => 16) ); ?>
+        <?php while ( $lumbee_array->have_posts() ) : $lumbee_array->the_post() ?>
+          <div class="col-md-3">
           <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/7610291856_931fb9f461_k.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
+            <img src="<?php the_field('image') ?>" class="img-responsive video-btn">
+            <p class="lumbee__description"> <?php the_field('description') ?> </p>
           </div>
         </div>
+        <? endwhile; ?>
 
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/children-82272_1280.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/human-rights.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/old-books-436498_1280.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/hunger-682834_1280.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/africa-education.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/afghani-60798_1280.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/boy-60729_1280.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/child-207573_1280.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/children-60654_1280.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/doll-87407_1280.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/09/girl-62328_1280.jpg" class="img-responsive video-btn">
-            <p class="lumbee__description">TEST</p>
-          </div>
-        </div>
-      </div>
-
-
-    
-          
         
       </div>
       
