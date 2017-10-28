@@ -186,71 +186,24 @@ get_header(); ?>
         <div class="container">
             <h2 class="title-style-1">2014 PRODUCTIONS<span class="title-under"></span></h2>
       <div class="row">
-       <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Baskets2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/126749330"><?php echo $baskets ?></p>
+        <?php $video_2014_array = new WP_Query( array('cat' => 18) ); ?>
+        <?php while( $video_2014_array -> have_posts() ) : $video_2014_array -> the_post() ?>
+          <div class="col-md-3">
+            <div class="img__wrap">
+              <img src="<?php the_field('image') ?>" class="img-responsive video-btn"/>
+              <p class="img__description" data-link="<?php the_field('video_url') ?>"> <?php the_field('description') ?></p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Contamination.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/165630434"><?php echo $contamination ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Fisher2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/126756489"><?php echo $fisher ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Maize7.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/144661393"><?php echo $maize ?></p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Murals2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/123430993"><?php echo $murals ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Respect2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/126751874"><?php echo $respect ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/SemanaSanta2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/124157684"><?php echo $semana_santa ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/TraditionalFood2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/124977868"><?php echo $traditional_food ?></p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/TrajeSantaClara2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/123428479"><?php echo $traje_santa_clara ?></p> 
-          </div>
-        </div>
-      </div>
+
+        <?php endwhile; ?>
+       
 
 
 
             
 
-    </div> <!-- /.about-us -->
+      </div> <!-- /.about-us -->
+    </div>
         
         <div class="container">
           <h2 class="title-style-1">2013 PRODUCTIONS<span class="title-under"></span></h2>
@@ -261,7 +214,7 @@ get_header(); ?>
       <div class="row">
         <?php $video_2013_array = new WP_Query( array('cat' => 17) ); ?>
         <?php while( $video_2013_array -> have_posts() ) : $video_2013_array -> the_post() ?>
-          <div class="col-md-3 gallery">
+          <div class="col-md-3">
             <div class="img__wrap">
               <img src="<?php the_field('image') ?>" class="img-responsive video-btn"/>
               <p class="img__description" data-link="<?php the_field('video_url') ?>"> <?php the_field('description') ?></p>
@@ -270,7 +223,7 @@ get_header(); ?>
 
         <?php endwhile; ?>
         </div>
-        
+
       </div>
 
         
