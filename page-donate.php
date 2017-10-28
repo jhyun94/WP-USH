@@ -6,6 +6,7 @@
 */  
 $main_image = get_field('main_image');
 $main_content = get_field('main_content');
+$donate_read_more_popup = get_field('donate_read_more_popup');
 get_header(); ?>
 
 <div class="page-heading text-center">
@@ -111,7 +112,13 @@ get_header(); ?>
 
                         <div class="btn-holder text-center">
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> READ MORE</a>
+                          <div class="btn btn-primary donate-read-btn" id="<?php the_field('class_id_name') ?>"> Read more </div>
+                          <div class="donate-<?php the_field('class_id_name') ?> modal">
+                            <div class="modal-content">
+                              <span class="close">&times;</span>
+                              <p> <?php the_field('description') ?></p>
+                            </div>
+                          </div>
                           
                         </div>
 
@@ -132,3 +139,4 @@ get_header(); ?>
     </div>
   </div>
 <?php get_footer(); ?>
+<script><?php echo $donate_read_more_popup ?></script>
