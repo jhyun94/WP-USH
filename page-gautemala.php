@@ -185,7 +185,6 @@ get_header(); ?>
     </div> <!-- /.about-us -->
         <div class="container">
             <h2 class="title-style-1">2014 PRODUCTIONS<span class="title-under"></span></h2>
-            <div class="row">
       <div class="row">
        <div class="col-md-3">
           <div class="img__wrap">
@@ -249,30 +248,13 @@ get_header(); ?>
 
 
 
-      
-
-
-                  <div class="row">
-
-                      <div class="col-md-3 col-sm-6">
-                
-                
-                  
-                        
-                      </div>
-                      
-
-                      
-                  </div> <!-- /.row -->
-
             
-          </div> 
 
     </div> <!-- /.about-us -->
         
         <div class="container">
           <h2 class="title-style-1">2013 PRODUCTIONS<span class="title-under"></span></h2>
-        </div>
+
 
 
 
@@ -287,6 +269,8 @@ get_header(); ?>
           </div>
 
         <?php endwhile; ?>
+        </div>
+        
       </div>
 
         
