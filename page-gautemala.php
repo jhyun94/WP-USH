@@ -277,65 +277,19 @@ get_header(); ?>
 
 
       <div class="row">
-        <div class="col-md-3 gallery">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Alcoholism.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/89448824"><?php echo $alcoholism ?></p>
+        <?php $video_2013_array = new WP_Query( array('cat' => 17) ); ?>
+        <?php while( $video_2013_array -> have_posts() ) : $video_2013_array -> the_post() ?>
+          <div class="col-md-3 gallery">
+            <div class="img__wrap">
+              <img src="<?php the_field('image') ?>" class="img-responsive video-btn"/>
+              <p class="img__description" data-link="<?php the_field('video_url') ?>"> <?php the_field('description') ?></p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-3 gallery">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/CeremoniaMaya.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/123432630"><?php echo $ceremonial_maya ?></p>
-          </div>
-        </div>
-        <div class="col-md-3 gallery">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/FightingWomen.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/81062150"><?php echo $fighting_women ?></p>
-          </div>
-        </div>
-        <div class="col-md-3 gallery">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Nature.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/84079635"><?php echo $nature ?></p>
-          </div>
-        </div>
+
+        <?php endwhile; ?>
       </div>
-      <div class="row">
-        <div class="col-md-3 gallery">
-          <div class="img__wrap">
-          <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/SheepWeaving.png" class="img-responsive video-btn"/>
-          <p class="img__description" data-link="https://player.vimeo.com/video/81058914"><?php echo $sheep_weaving ?></p>
-          </div>
-        </div>
-        <div class="col-md-3 gallery">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Success.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/81130771"><?php echo $success ?></p>
-          </div>
-        </div>
-        <div class="col-md-3 gallery">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Temaszcal.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/85623980"><?php echo $temaszcal ?></p>
-          </div>
-        </div>
-        <div class="col-md-3 gallery">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/TrajeSanJuan.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/81043195"><?php echo $trajesanjuan ?></p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3 gallery">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/TraditionalDance.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/89500801"><?php echo $traditional_dance ?></p>
-          </div>
-        </div>
-      </div>
+
+        
 
           
         
