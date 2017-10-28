@@ -64,99 +64,22 @@ get_header(); ?>
       
       <div class="container">
             <h2 class="title-style-1">2015 PRODUCTIONS<span class="title-under"></span></h2>
-            <div class="row">
+
 
       <div class="row">
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/ArmedConflict.jpg" class="img-responsive video-btn">
-            <p class="img__description" data-link="https://player.vimeo.com/video/170392376"><?php echo $armed_conflict ?></p>
+        <?php $video_2015_array = new WP_Query( array('cat' => 19) ); ?>
+        <?php while( $video_2015_array -> have_posts() ) : $video_2015_array -> the_post() ?>
+          <div class="col-md-3">
+            <div class="img__wrap">
+              <img src="<?php the_field('image') ?>" class="img-responsive video-btn"/>
+              <p class="img__description" data-link="<?php the_field('video_url') ?>"> <?php the_field('description') ?></p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/ChildLabor2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/163468313"><?php echo $child_labor ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/ContaminationC2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/165630434"><?php echo $contaminationc2 ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/FoundationPantantic2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/163512394"><?php echo $foundation_pantantic ?></p>
-          </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/FruitsQ2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/163421372"><?php echo $fruits ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/GrindingStone2.png" class="img-responsive video-btn"/>
-            <p class="img__description"data-link="https://player.vimeo.com/video/165623414"><?php echo $grinding_stone ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/LakeofLife2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/170392068"><?php echo $lake_of_life ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/LifeSantiago2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/205700558"><?php echo $life_santiago ?></p>
-          </div>
-        </div>
+        <?php endwhile; ?>
+
       </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/MedicinalPlants2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/165629721"><?php echo $medicinal_plants ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/ReligionofSA.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/170392529"><?php echo $religion_of_sa ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Unprotected.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/170392947"><?php echo $unprotected ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/Tocoyal.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/170393314"><?php echo $tocoyal ?></p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="img__wrap">
-            <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/WeavignQ2.png" class="img-responsive video-btn"/>
-            <p class="img__description" data-link="https://player.vimeo.com/video/163454182"><?php echo $weaving ?></p>
-          </div>
-        </div>
-        <div class="col-md-3">
-<!--           <img src="assets/images/VideoPhotos/2015/Tocoyal.png" class="img-responsive video-btn"
-          data-link="https://player.vimeo.com/video/170393314" />
-        </div> -->
-      </div>
+        
 
 
 
