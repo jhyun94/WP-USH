@@ -65,7 +65,16 @@ get_header(); ?>
 
                         <div class="btn-holder text-center">
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> READ MORE</a>
+                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                          <input type="hidden" name="cmd" value="_donations">
+                          <input type="hidden" name="business" value="unlockingsilenthistories@gmail.com">
+                          <input type="hidden" name="lc" value="US">
+                          <input type="hidden" name="item_name" value="Unlocking Silent Histories">
+                          <input type="hidden" name="no_note" value="0">
+                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="bn" value="PP-DonationsBF:donate.png:NonHostedGuest">
+                          <button name="submit" class="btn btn-primary">DONATE</button>
+                        </form>
                           
                         </div>
 
