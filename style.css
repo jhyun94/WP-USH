@@ -1069,6 +1069,10 @@ form .alert {
   color: #fff;
 }
 
+.header_donate {
+  padding-top: 8px;
+}
+
 /* Accordion
 ================================= */
 .panel-default {
