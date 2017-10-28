@@ -2,40 +2,6 @@
 /*
   Template Name: Guatemala
  */
-//2015 
-$armed_conflict = get_field('armed_conflict');
-$child_labor = get_field('child_labor');
-$contaminationc2 = get_field('contaminationc2');
-$foundation_pantantic = get_field('foundation_pantantic');
-$fruits = get_field('fruits');
-$grinding_stone = get_field('grinding_stone');
-$lake_of_life = get_field('lake_of_life');
-$life_santiago = get_field('life_santiago');
-$medicinal_plants = get_field('medicinal_plants');
-$religion_of_sa = get_field('religion_of_sa');
-$unprotected = get_field('unprotected');
-$tocoyal = get_field('tocoyal');
-$weaving = get_field('weaving');
-//2014
-$baskets = get_field('baskets');
-$contamination = get_field('contamination');
-$fisher = get_field('fisher');
-$maize = get_field('maize');
-$murals = get_field('murals');
-$respect = get_field('respect');
-$semana_santa = get_field('semana_santa');
-$traditional_food = get_field('traditional_food');
-$traje_santa_clara = get_field('traje_santa_clara');
-//2013
-$alcoholism = get_field('alcoholism');
-$ceremonial_maya = get_field('ceremonial_maya');
-$fighting_women = get_field('fighting_women');
-$nature = get_field('nature');
-$sheep_weaving = get_field('sheep_weaving');
-$success = get_field('success');
-$temaszcal = get_field('temaszcal');
-$trajesanjuan = get_field('trajesanjuan');
-$traditional_dance = get_field('traditional_dance');
 
 get_header(); ?>
 
@@ -160,24 +126,7 @@ get_header(); ?>
 
 
   </div> <!-- /.main-container  -->
-  <div class="section-home about-us">
 
-
-                  <div class="row">
-
-                      <div class="col-md-3 col-sm-6">
-                
-                
-                  
-                        
-                      </div>
-                      
-
-                      
-                  </div> <!-- /.row -->
-
-            
-          </div> 
 
     </div> <!-- /.about-us -->
 
