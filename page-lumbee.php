@@ -5,8 +5,16 @@
 
 */
 $lumbee_resize = get_field('lumbee_resize');
+$lumbee_image_modal = get_field('lumbee_image_modal');
 get_header();  
 ?>
+
+
+<div class="lumbee_modal">
+  <span class="lumbee_modal_close">&times;</span>
+  <div class="lumbee_modal_content">
+  </div>
+</div>
 
 <div class="page-heading text-center">
 
@@ -49,3 +57,4 @@ get_header();
 
 <?php get_footer(); ?>
 <script><?php echo $lumbee_resize ?></script>
+<script><?php echo $lumbee_image_modal ?></script>

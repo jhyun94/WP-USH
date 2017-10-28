@@ -1088,7 +1088,7 @@ form .alert {
 }
 /* video modal
 ======================== */
-.video-modal{
+.video-modal, .lumbee_modal{
   display: none;
   position: fixed;
   z-index: 9999;
@@ -1101,15 +1101,21 @@ form .alert {
   overflow: auto;
 }
 
-.video-content {
+.video-content, .lumbee_modal_content {
   padding-top: 10%;
+
 }
-.video-close {
+
+.lumbee_modal_content {
+  text-align: center;
+}
+.video-close, .lumbee_modal_close {
   font-size: 40px;
   color: #fff;
   position: absolute;
   right: 35px;
   top: 15px;
+  cursor: pointer;
 }
 
 .video-btn {
@@ -1119,9 +1125,6 @@ form .alert {
 /*  position: relative;*/
 }
 
-.video-close:hover {
-  cursor: pointer;
-}
 
 .video-btn:hover {
   cursor: pointer;
@@ -1156,6 +1159,11 @@ form .alert {
 .img__wrap:hover .img__description, .img__wrap:hover .lumbee__description {
   visibility: visible;
   opacity: 1;
+}
+
+.lumbee_image {
+  height: 470px;
+  width: 688px;
 }
 
 /* boards page
