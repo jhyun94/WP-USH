@@ -74,7 +74,7 @@ get_header(); ?>
                           <input type="hidden" name="no_note" value="0">
                           <input type="hidden" name="currency_code" value="USD">
                           <input type="hidden" name="bn" value="PP-DonationsBF:donate.png:NonHostedGuest">
-                          <button name="submit" class="btn btn-primary">DONATE</button>
+                          <button name="submit" class="btn btn-primary">INVEST</button>
                         </form>
                           
                         </div>
