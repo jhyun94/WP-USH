@@ -60,18 +60,18 @@ $sub_heading = get_field('sub_heading');
 
                   <h2 class="carousel-title bounceInDown animated slow"><?php echo $heading ?></h2>
                   <h4 class="carousel-subtitle bounceInUp animated slow "><?php echo $sub_heading ?></h4>
-                  <a href="http://50.87.248.187/~twooneu9/USHWP/missions/" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" >ENGLISH</a><a href="/missiones" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#mission.html">SPANISH</a>
+                  <a href="http://50.87.248.187/~twooneu9/USHWP/missions/" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" >English</a><a href="/missiones" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#mission.html">Español</a>
                  <br> 
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_donations">
-                    <input type="hidden" name="business" value="unlockingsilenthistories@gmail.com">
-                    <input type="hidden" name="lc" value="US">
-                    <input type="hidden" name="item_name" value="Unlocking Silent Histories">
-                    <input type="hidden" name="no_note" value="0">
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input type="hidden" name="bn" value="PP-DonationsBF:donate.png:NonHostedGuest">
-                    <button name="submit" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">DONATE</button>
-                  </form>
+                          <input type="hidden" name="cmd" value="_donations">
+                          <input type="hidden" name="business" value="info@unlockingsilenthistories.org">
+                          <input type="hidden" name="lc" value="US">
+                          <input type="hidden" name="item_name" value="Unlocking Silent Histories">
+                          <input type="hidden" name="no_note" value="0">
+                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="bn" value="PP-DonationsBF:donate.png:NonHostedGuest">
+                          <button name="submit" class="btn btn-lg btn-secondary">DONATE</button>
+                          </form>
                 </div> <!-- /.carousel-caption -->
 
               </div>
