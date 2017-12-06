@@ -183,70 +183,24 @@ get_header(); ?>
        
      <!-- /.about-us -->
 
-<div class="container">  
-<div class="row">
-  </div></div>
+<div>
+  <div class="container">
+    <h2 class="title-style-1">OUR VISION<span class="title-under"></span></h2>
+    <div class="row">
+      <?php $vision_video = new WP_Query( array('cat' => 22) ); ?>
+        <?php while ( $vision_video->have_posts() ) : $vision_video->the_post() ?>
+          <div class="col-md-6">
+            <p class="vision-content"><?php the_field('video_content') ?></p>
+          </div>
+          <div class="col-md-6">
+            <p style="text-align: center;"><iframe width="500" height="280" frameborder="0" src="<?php the_field(video_source) ?>"><br />
+            </iframe></p>
+          </div>
+        <? endwhile; ?>
+    </div>
+  </div>
+</div>
 
-    <div class="section-home our-sponsors animate-onscroll fadeIn">
-    
-        <div class="container">
-          <h2 class="title-style-1">OUR VISION<span class="title-under"></span></h2>
-         <div class="container"> 
-    
-
-      <div class="row">
-
-      <div class="col-md-12">
-        <p> <?php echo $vision_content ?></p>
-            </div>
-
-        
-
-        <div class="col-md-12">
-          
-          <p style="text-align: center;"><iframe width="500" height="280" frameborder="0" src="https://player.vimeo.com/video/179655972?title=0&amp;byline=0&amp;portrait=0"><br />
-</iframe></p>
-          <div class="row"></div>
-        </div>
-
-       </div><!-- /.row -->
-
-        </div>
-
-    </div> <!-- /.our-sponsors -->
-
-    
-    <div class="container">  
-<div class="row">
-  </div></div>
-
-    <div class="section-home our-sponsors animate-onscroll fadeIn">
-    
-        <div class="container">
-          
-         <div class="container"> 
-    
-
-      <div class="row">
-
-      <div class="col-md-6">
-        <p style="text-align: center;"><iframe width="500" height="280" frameborder="0" src="https://player.vimeo.com/video/179650304?title=0&amp;byline=0&amp;portrait=0"><br />
-          </iframe></p></div>
-
-        
-
-        <div class="col-md-6">
-          
-          <p style="text-align: center;"><iframe width="500" height="280" frameborder="0" src="https://player.vimeo.com/video/178994323?title=0&amp;byline=0&amp;portrait=0"><br />
-</iframe></p>
-          <div class="row"></div>
-        </div>
-
-       </div><!-- /.row -->
-
-        </div>
-
-    </div> <!-- /.our-sponsors -->
 
 
 <?php get_footer(); ?>
