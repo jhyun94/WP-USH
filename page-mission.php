@@ -179,9 +179,26 @@ get_header(); ?>
         <p style="text-align: left;"> <?php echo $section_3_content ?> </p>
       </div>
     </div>
-  </div> <!-- /.row -->            
+  </div> <!-- /.row -->   
+  <div class="section-home our-causes animate-onscroll fadeIn animated">
+  <div class="container">  
+<div class="row">
+  </div></div>
+      <div class="row">
+  </div>
+                     
+  
+
+      
+        <div class="col-md-6">
+          <h2 class="title-style-2"></h2>
+          <p style="text-align: left;">  </p>
+        </div>
+
+    </div>        
        
      <!-- /.about-us -->
+
 
 
 
