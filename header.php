@@ -118,8 +118,8 @@
             </li>
                  <li class="has-child"><a href="#">CONNECT</a>
                     <ul class="submenu">
-                         <li class="submenu-item"><a href="http://50.87.248.187/~twooneu9/USHWP/news">Publications </a></li>
-                         <li class="submenu-item"><a href="http://50.87.248.187/~twooneu9/USHWP/reports">Reports </a></li>
+                         <li class="submenu-item"><a href="http://50.87.248.187/~twooneu9/USHWP/news">In The Media</a></li>
+                         <li class="submenu-item"><a href="http://50.87.248.187/~twooneu9/USHWP/reports">Reports</a></li>
                       </ul>
                       <li>
                         <div class="header_donate">
