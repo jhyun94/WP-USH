@@ -88,9 +88,10 @@
 
                   <ul class="nav navbar-nav">
 
-                    <li><a class="is-active has-child" href="http://50.87.248.187/~twooneu9/USHWP/vision/">OUR WORK</a>
+                    <li><a class="is-active has-child" href="#">OUR WORK</a>
                     <ul class="submenu">
                       <li class="submenu-item"><a href="http://50.87.248.187/~twooneu9/USHWP/missions">Mission</a></li>
+                      <li class="submenu-item"><a href="http://50.87.248.187/~twooneu9/USHWP/focus">Focus</a></li>
                     </ul>
                     </li>
                     <li class="has-child"><a href="#">PRODUCTIONS</a>
