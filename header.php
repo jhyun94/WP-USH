@@ -91,6 +91,7 @@
                     <li><a class="is-active has-child" href="#">OUR WORK</a>
                     <ul class="submenu">
                       <li class="submenu-item"><a href="http://50.87.248.187/~twooneu9/USHWP/missions">Mission</a></li>
+                      <li class="submenu-item"><a href="http://50.87.248.187/~twooneu9/USHWP/vision">Vision</a></li>
                       <li class="submenu-item"><a href="http://50.87.248.187/~twooneu9/USHWP/focus">Focus</a></li>
                     </ul>
                     </li>

@@ -1,30 +1,115 @@
-<?php
+<?php 
 /*
-  Template Name: Focus
- */
+
+
+Template Name: Focus
+
+*/
 
 get_header(); ?>
 
-<div>
-  <div class="container">
-    <h2 class="title-style-1">OUR VISION<span class="title-under"></span></h2>
-    <div class="row">
-    	<div class="col-md-6">
-			  <p style="text-align: center;&nbsp;italics">We envision a future where Indigenous youth leaders around the world inspire teams of young people to capture, revive, and reinvigorate their cultures, traditions, and languages through creating and discussing documentary films. </p>
-			  <p style="text-align: center; italics"> We imagine these Indigenous youth leaders making social impacts, locally and globally by sharing their films across generational and geographical boundaries.</p> <p style="text-align: center; italics"> Listen to their visions!</p>
-			</div>
-      <?php $vision_video = new WP_Query( array('cat' => 22) ); ?>
-        <?php while ( $vision_video->have_posts() ) : $vision_video->the_post() ?>
-          <div class="col-md-6">
-            <p style="text-align: center;"><iframe width="500" height="280" frameborder="0" src="<?php the_field(video_source) ?>"><br />
-            </iframe></p>
-          </div>
-        <? endwhile; ?>
-    </div>
-  </div>
-</div>
+
+      
+
+      <div class="container">  
+<div class="row">
+  </div></div>
+
+      <div class="main-container">
+
+    <div class="container">
+
+      <div class="row">
+<div class="section-home our-causes animate-onscroll fadeIn">
+
+        <div class="container">
+      
+        
+<h2 class="title-style-1">Why Indigenous youth<span class="title-under"></span></h2>
+        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/why.png" alt="" class="img-responsive">
+
+<!-- /.row -->
+      </div>
+      
+                      </div>
+                      
+
+                      
+                  </div> <!-- /.row -->
+
+            
+          </div> 
+
+    </div> <!-- /.about-us -->
 
 
 
+    <div class="section-home our-causes animate-onscroll fadeIn">
 
-<?php get_footer(); ?>
+        <div class="container">
+          <h2 class="title-style-1">Where we work<span class="title-under"></span></h2>
+          <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="cause">
+
+                        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/where.png" alt="" class="img-responsive">
+
+                       
+
+                      
+                        
+
+                    </div> <!-- /.cause -->
+                    
+                </div> 
+
+                
+                    
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+
+                    
+                    
+                </div>
+
+            </div>
+
+        </div>
+        
+    </div> <!-- /.our-causes -->
+
+
+
+    <div class="section-home our-sponsors animate-onscroll fadeIn">
+    
+        <div class="container">
+          <h2 class="title-style-1">PRESENTATION VENUES<span class="title-under"></span></h2>
+          <ul class="owl-carousel list-unstyled list-sponsors">
+
+            <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/ArtinBloom.png" alt=""></li>
+             <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/AFS.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/atitlan.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/aviary.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/BHCC.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/casahererra.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/CECAP.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/cenote.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/espanol.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/flytrap.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/galeria.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/jos.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/piano.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/NMAI.png" alt=""></li>
+              <li> <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/UNCW.png" alt=""></li>
+              
+
+            </ul>
+
+        </div>
+
+    </div> <!-- /.our-sponsors -->
+
+<?php get_footer() ?>
