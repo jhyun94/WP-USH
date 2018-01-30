@@ -4,15 +4,14 @@
   Template Name: Lumbee
 
 */
-$lumbee_resize = get_field('lumbee_resize');
-$lumbee_image_modal = get_field('lumbee_image_modal');
+
 get_header();  
 ?>
 
 
-<div class="lumbee_modal">
-  <span class="lumbee_modal_close">&times;</span>
-  <div class="lumbee_modal_content">
+<div class="video-modal">
+  <span class="video-close">&times;</span>
+  <div class="video-content">
   </div>
 </div>
 
@@ -34,12 +33,12 @@ get_header();
     <div class="container gallery fadeIn animated">
 
       <div class="row">
-        <?php $lumbee_array = new WP_Query( array('cat' => 16) ); ?>
+        <?php $lumbee_array = new WP_Query( array('cat' => 23) ); ?>
         <?php while ( $lumbee_array->have_posts() ) : $lumbee_array->the_post() ?>
           <div class="col-md-3">
           <div class="img__wrap">
             <img src="<?php the_field('image') ?>" class="img-responsive video-btn">
-            <p class="lumbee__description"> <?php the_field('description') ?> </p>
+            <p class="img__description" data-link="<?php the_field('video_url') ?>"> <?php the_field('description') ?> </p>
           </div>
         </div>
         <? endwhile; ?>
@@ -57,4 +56,3 @@ get_header();
 
 <?php get_footer(); ?>
 <script><?php echo $lumbee_resize ?></script>
-<script><?php echo $lumbee_image_modal ?></script>
