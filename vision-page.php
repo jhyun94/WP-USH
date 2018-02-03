@@ -28,9 +28,9 @@ get_header(); ?>
                 
                 <div class="col-md-6">
 
-                    <div class="reasons-col animate-onscroll fadeIn youth-img-container">
+                    <div class="reasons-col animate-onscroll fadeIn ">
 
-                        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2018/02/DSC09692.jpg" alt="">
+                        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2018/02/DSC09692.jpg" class="youth-img" alt="">
 
                         <div class="reasons-titles">
 
@@ -97,8 +97,8 @@ get_header(); ?>
     <h2 class="title-style-1">OUR VISION<span class="title-under"></span></h2>
     <div class="row">
       <div class="col-md-6">
-        <p style="text-align: center;&nbsp;italics">We envision a future where Indigenous youth leaders around the world inspire teams of young people to capture, revive, and reinvigorate their cultures, traditions, and languages through creating and discussing documentary films. </p>
-        <p style="text-align: center; italics"> We imagine these Indigenous youth leaders making social impacts, locally and globally by sharing their films across generational and geographical boundaries.</p> <p style="text-align: center; italics"> Listen to their visions!</p>
+        <p style="text-align: left;&nbsp;italics">We envision a future where Indigenous youth leaders around the world inspire teams of young people to capture, revive, and reinvigorate their cultures, traditions, and languages through creating and discussing documentary films. </p>
+        <p style="text-align: left; italics"> We imagine these Indigenous youth leaders making social impacts, locally and globally by sharing their films across generational and geographical boundaries.</p> <p style="text-align: left; italics"> Listen to their visions!</p>
       </div>
       <?php $vision_video = new WP_Query( array('cat' => 22) ); ?>
         <?php while ( $vision_video->have_posts() ) : $vision_video->the_post() ?>
