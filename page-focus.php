@@ -7,7 +7,14 @@ Template Name: Focus
 */
 
 get_header(); ?>
+<div class="page-heading text-center">
 
+    <div class="container zoomIn animated">
+      <h1 class="page-title">MISSION &amp; VISION<span class="title-under"></span></h1>
+      <p class="page-description"> JOIN US: BE PART OF THE STORY! </p>
+    </div>
+
+</div>
 
       
 
