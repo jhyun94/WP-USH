@@ -22,7 +22,7 @@ get_header(); ?>
       <p class="page-description"> JOIN US: BE PART OF THE STORY! </p>
     </div>
 
-  </div>
+</div>
   
 <div class="container">  
 <div class="row">
@@ -102,7 +102,7 @@ get_header(); ?>
         <div class="row about-us-new">
           <div class="col-md-6">
             <div class="mission-image-container">
-              <img src=<?php echo $section_1_image['url'] ?> alt=<?php echo $section_1_image['alt'] ?> class="img-responsive">
+              <img src=<?php echo $section_1_image['url'] ?> class="img-responsive w-100"/>
             </div>
           </div>  
 
@@ -136,7 +136,7 @@ get_header(); ?>
   <div class="about-us-new row">
     <div class="col-md-6">
       <div class="mission-image-container">
-        <img src=<?php echo $section_2_image['url'] ?> alt=<?php echo $section_2_image['alt'] ?> class="img-responsive mission-image">
+        <img src=<?php echo $section_2_image['url'] ?> class="img-responsive mission-image w-100"/>
       </div>
     </div>
 
@@ -169,7 +169,7 @@ get_header(); ?>
   <div class="about-us-new row">
     <div class="col-md-6">
       <div class="mission-image-container">
-        <img src=<?php echo $section_3_image['url'] ?> alt=<?php echo $section_3_image['alt'] ?> class="img-responsive mission-image">
+        <img src=<?php echo $section_3_image['url'] ?> class="img-responsive mission-image w-100"/>
       </div>    
     </div>
 
