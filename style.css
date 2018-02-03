@@ -1293,6 +1293,10 @@ form .alert {
   right: 0;
 }
 
+.youth-img {
+  height: 416px;
+}
+
 /* =============================================================================
   Responsive
 ========================================================================== */
@@ -1309,6 +1313,11 @@ form .alert {
   .reasons-col:hover .on-hover {
     padding: 25px;
   }
+
+  .young-img {
+    height: 341px;
+  }
+
 }
 /* Medium devices (desktops, 992px and Donw) */
 @media (max-width: 992px) {
@@ -1346,6 +1355,10 @@ form .alert {
 
   .about-us-col .col-icon-wrapper {
     padding-top: -20px;
+  }
+
+  .youth-img {
+    height: auto;
   }
 }
 /* Small devices (tablets, 768px and Down) */
@@ -1436,6 +1449,9 @@ form .alert {
   cursor: pointer;
   color: #fff;
 }
+
+
+
 /* Extra Small devices (tablets, 480px and Down) */
 @media (max-width: 480px) {
   .carousel-home .carousel-title {
