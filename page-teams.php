@@ -89,15 +89,6 @@ get_header(); ?>
                               <?php the_field('position') ?>
                           </div>
 
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
 
                           <div class="bio-<?php the_field('class_id_name') ?> modal">
                             <div class="modal-content">
@@ -153,15 +144,6 @@ get_header(); ?>
                               <?php the_field('position') ?>
                           </div>
 
-                          <div class="btn-holder">
-
-                            <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-                            <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                            
-                          </div>
 
                           <div class="bio-<?php the_field('class_id_name') ?> modal">
                             <div class="modal-content">
