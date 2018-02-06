@@ -52,7 +52,7 @@ $sub_heading = get_field('sub_heading');
 
             <div class="item active">
 
-               <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/landingchua.png" alt="">
+               <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2018/02/LandingImage_2018.png" alt="">
 
               <div class="container">
 
