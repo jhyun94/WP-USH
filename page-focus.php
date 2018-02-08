@@ -5,7 +5,8 @@
 Template Name: Focus
 
 */
-
+$youth = get_field('youth');
+$work = get_field('work');
 get_header(); ?>
 <div class="page-heading text-center">
 
@@ -33,7 +34,7 @@ get_header(); ?>
       
         
 <h2 class="title-style-1">Why Indigenous youth<span class="title-under"></span></h2>
-        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/why.png" alt="" class="img-responsive">
+        <img src=<?php echo $youth['url'] ?> alt="" class="img-responsive">
 
 <!-- /.row -->
       </div>
@@ -61,7 +62,7 @@ get_header(); ?>
 
                     <div class="cause">
 
-                        <img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/where.png" alt="" class="img-responsive">
+                        <img src=<?php echo $work['url'] ?> alt="" class="img-responsive">
 
                        
 
