@@ -73,7 +73,7 @@ get_header(); ?>
 
                           <div class="thumnail">
 
-                              <img src=<?php the_field('image') ?> alt="" class="cause-img">
+                              <img src=<?php the_field('image') ?> alt="" class="w-100">
                               
                           </div>
 
@@ -88,7 +88,7 @@ get_header(); ?>
                           <div class="bio-<?php the_field('class_id_name') ?> modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src=<?php the_field('image') ?> alt="" class="cause-img"/>
+                                <img src=<?php the_field('image') ?> alt="" class="w-100"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
@@ -120,7 +120,7 @@ get_header(); ?>
 
                           <div class="thumnail">
 
-                              <img src=<?php the_field('image') ?> alt="" class="cause-img">
+                              <img src=<?php the_field('image') ?> alt="" class="w-100">
                               
                           </div>
 
@@ -135,7 +135,7 @@ get_header(); ?>
                           <div class="bio-<?php the_field('class_id_name') ?> modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src=<?php the_field('image') ?> alt="" class="cause-img"/>
+                                <img src=<?php the_field('image') ?> alt="" class="w-100"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
