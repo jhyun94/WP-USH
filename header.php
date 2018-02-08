@@ -13,21 +13,31 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+  <meta charset="<?php bloginfo( 'charset' ); ?>">
   <title>USH | Non-profit</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.css">
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/owl.carousel.css">
-	<?php wp_head(); ?>
+  <?php wp_head(); ?>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113520679-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113520679-1');
+</script>
+
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'unlockingsilenthistories' ); ?></a>
+  <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'unlockingsilenthistories' ); ?></a>
 
 <header class="main-header">
         
@@ -80,7 +90,7 @@
 
                   </button>
                   
-                  <a href="http://50.87.248.187/~twooneu9/USHWP/"><img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2017/08/USHbriefLogo.png" alt="logo" width="98" height="68"></a>
+                  <a href="http://50.87.248.187/~twooneu9/USHWP/"><img src="http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2018/02/2018-Logo-lock.png" alt="logo" width="68" height="68"></a>
                   
                 </div>
 
