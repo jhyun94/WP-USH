@@ -13,17 +13,14 @@ get_header(); ?>
 
     <div class="container zoomIn animated">
       
-      <h1 class="page-title">ABOUT US <span class="title-under"></span></h1>
-      <p class="page-description">OUR START: OUR TEAMS</p>
+      <h1 class="page-title">TEAMS<span class="title-under"></span></h1>
+      <p class="page-description">Our Leaders : Our Talent</p>
     </div>
 
   </div>
 
   <div class="main-container">
     
-    <div class="container">
-            <h2 class="title-style-1">YOUTH AND COMMUNITY PRODUCTIONS AND LEADERSHIP<span class="title-under"></span></h2>
-            <div class="row">
 
     <div class="container">
 
