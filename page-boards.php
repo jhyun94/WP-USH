@@ -10,16 +10,13 @@ get_header(); ?>
 
     <div class="container zoomIn animated">
       <h1 class="page-title">LEADERSHIP<span class="title-under"></span></h1>
-      <p class="page-description">OUR START: OUR TEAMS</p>
+      <p class="page-description">Our Leaders : Our Talent</p>
     </div>
 
   </div>
 
   <div class="main-container">
-    
-    <div class="container">
-            <h2 class="title-style-1">FILMMAKING AND LEADERSHIP SUPPORT<span class="title-under"></span></h2>
-            <div class="row">
+
 
     <div class="container">
 
@@ -88,7 +85,7 @@ get_header(); ?>
                           <div class="bio-<?php the_field('class_id_name') ?> modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src=<?php the_field('image') ?> alt="" class="w-100"/>
+                                <img src=<?php the_field('image') ?> alt="" class="w-60"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
@@ -135,7 +132,7 @@ get_header(); ?>
                           <div class="bio-<?php the_field('class_id_name') ?> modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src=<?php the_field('image') ?> alt="" class="w-100"/>
+                                <img src=<?php the_field('image') ?> alt="" class="w-60"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">

@@ -19,7 +19,8 @@ get_header(); ?>
 
   </div>
 
-  <div class="main-container">
+
+<div class="main-container">
     
 
     <div class="container">
@@ -39,24 +40,6 @@ get_header(); ?>
 
       </div> <!-- /.row -->
 
-      <div class="section-home about-us">
-
-
-                  <div class="row">
-
-                      <div class="col-md-3 col-sm-6">
-                
-                
-                  
-                        
-                      </div>
-                      
-
-                      
-                  </div> <!-- /.row -->
-
-            
-          </div> 
 
     </div> <!-- /.about-us -->
 
@@ -89,9 +72,9 @@ get_header(); ?>
 
                           <div class="bio-<?php the_field('class_id_name') ?> modal">
                             <div class="modal-content">
-                              <span class="close">&times;</span>  
-                              <div class="header">                              
-                                <img src="<?php the_field('image') ?>" alt="" class="w-100"/>
+                              <div class="header">                               
+                                <img src="<?php the_field('image') ?>" alt="" class="w-60"/>
+                                <span class="close">&times;</span>
                               </div>
                               <div class="description">
                                 <p><?php the_field('description') ?></p>
@@ -145,7 +128,7 @@ get_header(); ?>
                           <div class="bio-<?php the_field('class_id_name') ?> modal">
                             <div class="modal-content">
                               <div class="header">                               
-                                <img src="<?php the_field('image') ?>" alt="" class="w-100"/>
+                                <img src="<?php the_field('image') ?>" alt="" class="w-50"/>
                                 <span class="close">&times;</span>
                               </div>
                               <div class="description">
@@ -167,32 +150,8 @@ get_header(); ?>
       </div>
 
           </div>
-
-      </div>
     
-
-
-      </div><div class="section-home about-us">
-
-
-                  <div class="row">
-
-                      <div class="col-md-3 col-sm-6">
-                
-                
-                  
-                        
-                      </div>
-                      
-
-                      
-                  </div> <!-- /.row -->
-
-            
-      </div>
-      
-      
-      
-      </div>
+        
+</div>
 
  <?php get_footer(); ?>
