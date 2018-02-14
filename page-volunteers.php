@@ -122,7 +122,8 @@ get_header(); ?>
 
       <div class="our-team animate-onscroll fadeIn">
 
-         
+         <div class="container">
+          <div class="row">
 
                   
 
@@ -165,7 +166,8 @@ get_header(); ?>
 
                     <?php endwhile; ?>
 
-                      
+                      </div>
+                    </div>
                     
 
               </div> <!-- /.row -->
