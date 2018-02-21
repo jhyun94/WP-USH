@@ -781,6 +781,17 @@ form .alert {
   opacity: 1;
 }
 
+.bg-hero {
+  background: url("http://50.87.248.187/~twooneu9/USHWP/wp-content/uploads/2018/02/LandingImage_2018.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-text-contain {
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+}
 
 /* Modal
 ================================= */
