@@ -696,6 +696,7 @@ a:hover, a:focus, a:active {
   color: #fff;
   text-align: center;
   padding-bottom: 15px;
+  margin-bottom: 15px;
   border: 1px solid #008080;
 }
 .team-member .thumnail img {
